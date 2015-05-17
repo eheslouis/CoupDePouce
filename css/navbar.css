@@ -1,0 +1,115 @@
+/*
+http://work.smarchal.com/twbscolor/css/e74c3cc0392becf0f1ffbbbc0
+*/
+
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.navbar-default .navbar-brand {
+  color: #ef0000;
+}
+.navbar-default .navbar-brand:hover {
+  color: #ffffff;
+  background-color: #ef0000;
+}
+
+.navbar-default .navbar-brand:focus {
+  color: #000000;
+  background-color: #ef0000;
+}
+
+.navbar-default .navbar-text {
+  color: #ef0000;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ef0000;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ffffff;
+  background-color: #ef0000;
+}
+.navbar-default .navbar-nav > li > a:focus {
+  color: #000000;
+  background-color: #ef0000;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ef0000;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover {
+  color: #ffffff;
+  background-color: #ef0000;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #000000;
+  background-color: #ef0000;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
+  color: #000000;
+  background-color: #ef0000;
+}
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #ffffff;
+  background-color: #ef0000;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus {
+  color: #000000;
+  background-color: #ef0000;
+}
+.navbar-default .navbar-nav > .open > a:hover {
+  color: #ffffff;
+  background-color: #ef0000;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ef0000;
+}
+.navbar-default .navbar-toggle:hover {
+  color: #ffffff;
+  background-color: #ef0000;
+}
+.navbar-default .navbar-toggle:focus {
+  background-color: #ef0000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ef0000;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ef0000;
+}
+.navbar-default .navbar-link {
+  color: #ef0000;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+  background-color: #ef0000;
+}
+
+@media (max-width: 840px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ef0000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover
+  {
+    color: #ffffff;
+    background-color: #ef0000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #000000;
+    background-color: #ef0000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #000000;
+    background-color: #ef0000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
+    color: #ffffff;
+    background-color: #ef0000;
+  }
+}
