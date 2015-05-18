@@ -2,11 +2,32 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  color: #000000;
+}
+
+.social{
+  margin: 0 auto;
+  max-width: 50em;
+  text-shadow: 3px 3px 3px #aaa;
+}
+
+
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
 }
 
+.container {
+  padding-right: 5px;
+  padding-left: 5px;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -21,11 +42,6 @@ body {
 }
 
 /* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
@@ -105,13 +121,13 @@ body {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media (min-width: 768px) {
-  .navbar-logo {
-    width: 120px;
-  }
-  .navbar-wrapper .container {
+  .container {
     padding-right: 0px;
     padding-left: 0px;
     width: 768px;
+  }
+  .navbar-logo {
+    width: 120px;
   }
   .navbar-nav {
     margin-top: 27px;
@@ -127,13 +143,13 @@ body {
 }
 
 @media (min-width: 880px) {
-  .navbar-wrapper, .dropdown-menu {
-    font-size: 14px;
-  }
-  .navbar-wrapper .container {
+   .container {
     padding-right: 0px;
     padding-left: 0px;
     width: 850px;
+  }
+  .navbar-wrapper, .dropdown-menu {
+    font-size: 14px;
   }
   .navbar-wrapper .navbar {
     padding-right: 0;
