@@ -1,23 +1,7 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-
-
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
 @import url(http://weloveiconfonts.com/api/?family=zocial);
-
-[class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
-  color: #000000;
-}
-
-.social{
-  margin: 0 auto;
-  max-width: 50em;
-  text-shadow: 3px 3px 3px #aaa;
-}
-
 
 body {
   padding-bottom: 40px;
@@ -27,6 +11,20 @@ body {
 .container {
   padding-right: 5px;
   padding-left: 5px;
+}
+
+/* CUSTOMIZE THE SOCIAL ICON
+-------------------------------------------------- */
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  font-size: 12px;
+}
+
+.social{
+  margin: 0 auto;
+  max-width: 50em;
+  text-shadow: 3px 3px 3px #aaa;
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -39,6 +37,7 @@ body {
   right: 0;
   left: 0;
   z-index: 20;
+  margin: auto;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
@@ -55,7 +54,8 @@ body {
   padding-left: 1em;
 }
 
-.navbar-wrapper, .dropdown-menu {
+.navbar-wrapper,
+.dropdown-menu {
   font-size: 12px;
 }
 
@@ -67,6 +67,7 @@ body {
   height: 500px;
   margin-bottom: 60px;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
@@ -77,6 +78,7 @@ body {
   height: 500px;
   background-color: #777;
 }
+
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
@@ -94,9 +96,11 @@ body {
   margin-bottom: 20px;
   text-align: center;
 }
+
 .marketing h2 {
   font-weight: normal;
 }
+
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
@@ -124,33 +128,44 @@ body {
   .container {
     padding-right: 0px;
     padding-left: 0px;
-    width: 768px;
   }
+
   .navbar-logo {
     width: 120px;
   }
+
   .navbar-nav {
     margin-top: 27px;
   }
+
   .navbar-nav > li > a
   {
     padding-top: 5px;
     padding-bottom: 5px;
   }
+
   .navbar {
     min-height: 30px;
   }
+
+  .navbar-nav > li > a {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 
-@media (min-width: 880px) {
+@media (min-width: 1000px) {
    .container {
-    padding-right: 0px;
-    padding-left: 0px;
-    width: 850px;
+    width: 980px;
   }
-  .navbar-wrapper, .dropdown-menu {
+
+  .navbar-wrapper,
+  .dropdown-menu,
+  .dropdown-header,
+  [class*="zocial-"]:before {
     font-size: 14px;
   }
+
   .navbar-wrapper .navbar {
     padding-right: 0;
     padding-left: 0;
@@ -169,8 +184,9 @@ body {
     border-radius: 4px;
   }
 
-  .dropdown-header{
-    font-size: 14px;
+  .navbar-nav > li > a {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   /* Bump up size of carousel content */
