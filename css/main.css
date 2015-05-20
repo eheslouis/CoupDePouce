@@ -73,6 +73,25 @@ body {
   z-index: 10;
 }
 
+.carousel-caption > h1 {
+  color: #ef0000;
+}
+.carousel-caption > p {
+  color: #000000;
+}
+
+.carousel-caption h1 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 1.0;
+}
+
+.carousel-caption p {
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 1.0;
+}
+
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
@@ -108,9 +127,9 @@ body {
 /*PARTENAIRE CSS
 -------------------------------------------------- */
 .partenaires > a > img {
-  width: 60px;
-  margin-left: 10px;
-  margin-right: 10px;
+  width: 40px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 
@@ -148,6 +167,24 @@ body {
 
   .dropdown:hover .dropdown-menu {
     display: block;
+  }
+
+  .carousel-caption h1 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 1.0;
+  }
+
+  .carousel-caption p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.0;
+  }
+
+  .partenaires > a > img {
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
@@ -187,19 +224,17 @@ body {
   }
 
   /* Bump up size of carousel content */
+  .carousel-caption h1 {
+    font-size: 30px;
+  }
+
   .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
+    font-size: 20px;
   }
 
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 992px) {
-  .featurette-heading {
-    margin-top: 120px;
+  .partenaires > a > img {
+    width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
