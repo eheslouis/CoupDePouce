@@ -13,6 +13,12 @@ body {
   padding-left: 5px;
 }
 
+.agenda {
+  color:#ef0000;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
 /* CUSTOMIZE THE SOCIAL ICON
 -------------------------------------------------- */
 
@@ -141,6 +147,10 @@ body {
     padding-right: 0px;
     padding-left: 0px;
   }
+
+  .agenda {
+  font-size: 14px;
+}
 
   .navbar-logo {
     width: 120px;
