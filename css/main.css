@@ -84,6 +84,7 @@ body {
 }
 .carousel-caption > p {
   color: #000000;
+  text-shadow: none;
 }
 
 .carousel-caption h1 {
