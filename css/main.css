@@ -209,9 +209,9 @@ body {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 998px) {
    .container {
-    width: 980px;
+    width: 998px;
   }
 
   .navbar-wrapper,
