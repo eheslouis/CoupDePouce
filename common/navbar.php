@@ -1,5 +1,8 @@
 <!-- ================ NAVBAR ================ -->
             <div class="row">
+                <!-- <div class="col-md-2">
+                    <a href="index.php"><img class="navbar-logo" src="images/logo.jpg" alt="logo coup de pouce"></a>
+                </div> -->
                 <div class="col-md-12">
                     <div class="navbar-wrapper">
                         <nav class="navbar navbar-default navbar-static-top">
@@ -48,8 +51,8 @@
                                         </ul>
                                     </li>
 
-                                    <li class="social"><a href="#" class="zocial-facebook"></a></li>
-                                    <li class="social"><a href="#" class="zocial-twitter"></a></li>
+                                    <li class="social"><a href="https://www.facebook.com/coupdepoucevn" class="zocial-facebook"></a></li>
+                                    <!-- <li class="social"><a href="#" class="zocial-twitter"></a></li> -->
                                     <li class="social"><a href="contact.php" class="zocial-email"></a></li>
                                 </ul>
                             </div>

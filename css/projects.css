@@ -1,0 +1,20 @@
+p{
+	color: black;
+}
+
+h2, h4{
+	color: #ef0000;
+}
+
+h2{
+	text-align: center;
+}
+
+.project-image{
+	display: block;
+	margin: auto;
+}
+
+.project-description, .project-cout{
+	text-align:justify;
+}
