@@ -9,7 +9,7 @@ var project = {
             "url": "http://www.apeyersinhanoi.blogspot.com"
         }
     ],
-    "donnateurs": [
+    "donateurs": [
         {
             "name": "Fonds propres CDPVN"
         }
@@ -32,10 +32,10 @@ var project = {
 			$("#projectPartenaires").append(HTMLprojectPartenaire.replace("%data%", project.partenaires[index].partenaire).replace("#",project.partenaires[index].url));
 		}
 
-		$("#projectDonnateur").append(HTMLprojectDonStart);
-		for (var index in project.donnateurs)
+		$("#projectDonateur").append(HTMLprojectDonStart);
+		for (var index in project.donateurs)
         {
-			$("#projectDonnateur").append(HTMLprojectDonnateur.replace("%data%", project.donnateurs[index].name));
+			$("#projectDonateur").append(HTMLprojectDonateur.replace("%data%", project.donateurs[index].name));
 		}
 
 		$("#projectInfo").append(HTMLprojectInfoStart);

@@ -12,7 +12,8 @@
     <div class="col-md-5">
         <div class="project-cout" id="projectCout"></div>
         <div class="project-partenaire" id="projectPartenaires"></div>
-        <div class="project-donnateur" id="projectDonnateur"></div>
+        <div class="project-donateur" id="projectDonateur"></div>
+        <div class="project-anterieur" id="projectAnterieur"></div>
         <div class="project-info" id="projectInfo"></div>
     </div>
 </div>

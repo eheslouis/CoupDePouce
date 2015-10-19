@@ -7,7 +7,6 @@
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="description" content="Coup de Pouce">
         <meta name="author" content="Elodie Heslouis">
-        <!-- <link rel="icon" href="../../favicon.ico"> -->
         <title>Coup de Pouce</title>
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
