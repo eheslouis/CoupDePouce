@@ -19,7 +19,7 @@ body {
   padding-left: 5px;
 }
 
-.agenda {
+.a-agenda {
   color:#ef0000;
   font-size: 12px;
   margin-bottom: 0px;
@@ -156,6 +156,14 @@ body {
 }
 
 
+/*AGENDA CSS
+-------------------------------------------------- */
+.calendar {
+  display: block;
+  margin: auto;
+}
+
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -165,7 +173,7 @@ body {
     padding-left: 0px;
   }
 
-  .agenda {
+  .a-agenda {
   font-size: 14px;
   }
 

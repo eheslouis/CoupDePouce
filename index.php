@@ -21,6 +21,7 @@
             <?php
                 include "common/nextAgenda.php";
             ?>
+
             <?php
                 include "common/navbar.php";
             ?>
@@ -93,9 +94,6 @@
                     </div>
                 </div>
             </div>
-
-
-
         </div>
 
 <!-- Bootstrap core JavaScript
@@ -105,6 +103,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-
+    <script src="js/format-google-calendar.min.js"></script>
+    <script src="common/nextAgenda.js"></script>
     </body>
 </html>

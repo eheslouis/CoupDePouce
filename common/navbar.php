@@ -51,7 +51,7 @@
                                         </ul>
                                     </li>
 
-                                    <li class="social"><a href="https://www.facebook.com/coupdepoucevn" class="zocial-facebook"></a></li>
+                                    <li class="social"><a href="https://www.facebook.com/coupdepoucevn" target="_blank" class="zocial-facebook"></a></li>
                                     <!-- <li class="social"><a href="#" class="zocial-twitter"></a></li> -->
                                     <li class="social"><a href="contact.php" class="zocial-email"></a></li>
                                 </ul>
