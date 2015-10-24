@@ -27,6 +27,12 @@
                 include "common/navbar.php";
                 echo "<div>".$thedifferentpart."</div>";
             ?>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=communication.cdpvn%40gmail.com&showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=400&amp;wkst=2&amp;hl=fr&amp;bgcolor=%23FFFFFF&amp;ctz=Asia%2FSaigon" style="border-width:0" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
         </div>
 
 <!-- Bootstrap core JavaScript
@@ -36,6 +42,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-
+    <script src="js/format-google-calendar.min.js"></script>
+    <script src="common/nextAgenda.js"></script>
     </body>
 </html>

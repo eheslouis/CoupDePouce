@@ -161,6 +161,9 @@ body {
 .calendar {
   display: block;
   margin: auto;
+  min-width: 80%;
+  max-width: 80%;
+  height: 400px;
 }
 
 
