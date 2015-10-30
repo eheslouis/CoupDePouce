@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	backgroundColor="rgba(255,255,255,1)"
+	indexPageName="gallerieJuiceBox.php"
+
+>
+  <image imageURL="images/image-01.jpg"
+	thumbURL="thumbs/image-01.jpg"
+	linkURL="images/image-01.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-01.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-02.jpg"
+	thumbURL="thumbs/image-02.jpg"
+	linkURL="images/image-02.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-02.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-03.jpg"
+	thumbURL="thumbs/image-03.jpg"
+	linkURL="images/image-03.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-03.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-04.jpg"
+	thumbURL="thumbs/image-04.jpg"
+	linkURL="images/image-04.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-04.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-05.jpg"
+	thumbURL="thumbs/image-05.jpg"
+	linkURL="images/image-05.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-05.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-06.jpg"
+	thumbURL="thumbs/image-06.jpg"
+	linkURL="images/image-06.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-06.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-07.jpg"
+	thumbURL="thumbs/image-07.jpg"
+	linkURL="images/image-07.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-07.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-08.jpg"
+	thumbURL="thumbs/image-08.jpg"
+	linkURL="images/image-08.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-08.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-09.jpg"
+	thumbURL="thumbs/image-09.jpg"
+	linkURL="images/image-09.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-09.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-10.jpg"
+	thumbURL="thumbs/image-10.jpg"
+	linkURL="images/image-10.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-10.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-11.jpg"
+	thumbURL="thumbs/image-11.jpg"
+	linkURL="images/image-11.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-11.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-12.jpg"
+	thumbURL="thumbs/image-12.jpg"
+	linkURL="images/image-12.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-12.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-13.jpg"
+	thumbURL="thumbs/image-13.jpg"
+	linkURL="images/image-13.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-13.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-14.jpg"
+	thumbURL="thumbs/image-14.jpg"
+	linkURL="images/image-14.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-14.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-15.jpg"
+	thumbURL="thumbs/image-15.jpg"
+	linkURL="images/image-15.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-15.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-16.jpg"
+	thumbURL="thumbs/image-16.jpg"
+	linkURL="images/image-16.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-16.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-17.jpg"
+	thumbURL="thumbs/image-17.jpg"
+	linkURL="images/image-17.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-17.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-18.jpg"
+	thumbURL="thumbs/image-18.jpg"
+	linkURL="images/image-18.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-18.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-19.jpg"
+	thumbURL="thumbs/image-19.jpg"
+	linkURL="images/image-19.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-19.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-20.jpg"
+	thumbURL="thumbs/image-20.jpg"
+	linkURL="images/image-20.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-20.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-21.jpg"
+	thumbURL="thumbs/image-21.jpg"
+	linkURL="images/image-21.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-21.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-22.jpeg"
+	thumbURL="thumbs/image-22.jpeg"
+	linkURL="images/image-22.jpeg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-22.jpeg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-23.jpg"
+	thumbURL="thumbs/image-23.jpg"
+	linkURL="images/image-23.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-23.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-24.jpg"
+	thumbURL="thumbs/image-24.jpg"
+	linkURL="images/image-24.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-24.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-25.jpg"
+	thumbURL="thumbs/image-25.jpg"
+	linkURL="images/image-25.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-25.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-26.jpg"
+	thumbURL="thumbs/image-26.jpg"
+	linkURL="images/image-26.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-26.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-27.jpg"
+	thumbURL="thumbs/image-27.jpg"
+	linkURL="images/image-27.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-27.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-28.jpg"
+	thumbURL="thumbs/image-28.jpg"
+	linkURL="images/image-28.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-28.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/image-29.jpg"
+	thumbURL="thumbs/image-29.jpg"
+	linkURL="images/image-29.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/Didie/Documents/coup de pouce/site/img/galerie/image-29.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>

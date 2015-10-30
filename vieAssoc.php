@@ -15,17 +15,19 @@
         <!-- Custom styles for this template -->
         <link href="css/main.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
+        <link href="css/vieAssoc.css" rel="stylesheet">
     </head>
 
     <body>
         <div class="container">
             <?php
                 include "common/nextAgenda.php";
-                echo "<div>".$thedifferentpart."</div>";
             ?>
             <?php
                 include "common/navbar.php";
-                echo "<div>".$thedifferentpart."</div>";
+            ?>
+            <?php
+                include "vieAssoc/articles.php"
             ?>
         </div>
 
@@ -38,5 +40,7 @@
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script src="js/format-google-calendar.min.js"></script>
     <script src="common/nextAgenda.js"></script>
+    <script src="vieAssoc/articles.js"></script>
+    <script src="vieAssoc/articleStructure.js"></script>
     </body>
 </html>

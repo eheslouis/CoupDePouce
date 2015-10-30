@@ -21,12 +21,23 @@
         <div class="container">
             <?php
                 include "common/nextAgenda.php";
-                echo "<div>".$thedifferentpart."</div>";
             ?>
             <?php
                 include "common/navbar.php";
-                echo "<div>".$thedifferentpart."</div>";
             ?>
+            <!--START JUICEBOX EMBED-->
+            <script src="gallerie/jbcore/juicebox.js"></script>
+            <script>
+            new juicebox({
+            baseUrl: "gallerie/",
+            containerId: "juicebox-container",
+            galleryWidth: "100%",
+            galleryHeight: "100%",
+            backgroundColor: "rgba(255,255,255,1)"
+            });
+            </script>
+            <div id="juicebox-container"></div>
+            <!--END JUICEBOX EMBED-->
         </div>
 
 <!-- Bootstrap core JavaScript
