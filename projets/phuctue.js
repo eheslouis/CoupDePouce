@@ -47,33 +47,7 @@ var project = {
             "name": "visite du centre de Phuc Tuê en octobre 2014",
             "url": "vie-associative.html#visite-phuc-tue"
         }
-    ],
-	"display": function(){
-		$("#projectName").append(HTMLprojectName.replace("%data%", project.name));
-		$("#projectImage").append(HTMLprojectImage.replace("%data%",project.image));
-		$("#projectDesc").append(HTMLprojectDescription.replace("%data%",project.description));
-		$("#projectCout").append(HTMLprojectCout.replace("%data%", project.cout));
-
-		$("#projectPartenaires").append(HTMLprojectPartenairesStart);
-		for (var index in project.partenaires)
-        {
-            $("#projectPartenaires").append(HTMLprojectPartenaireNoURL.replace("%data%", project.partenaires[index].partenaire));
-		}
-
-		$("#projectDonateur").append(HTMLprojectDonStart);
-		for (var index in project.donateurs)
-        {
-			$("#projectDonateur").append(HTMLprojectDonateur.replace("%data%", project.donateurs[index].name));
-		}
-
-        $("#projectAnterieur").append(HTMLprojectAnterieur.replace("%data%", project.anterieur));
-
-		$("#projectInfo").append(HTMLprojectInfoStart);
-		for (var index in project.info)
-		{
-			$("#projectInfo").append(HTMLprojectInfo.replace("%data%", project.info[index].name).replace("#", project.info[index].url));
-		}
-	}
+    ]
 }
 
-project.display();
+display(project);

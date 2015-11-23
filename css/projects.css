@@ -18,3 +18,18 @@ h2{
 .project-description, .project-cout{
 	text-align: justify;
 }
+
+figcaption{
+	text-align: center;
+	font-size: 12px;
+}
+
+td{
+	text-align: center;
+}
+
+table{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}

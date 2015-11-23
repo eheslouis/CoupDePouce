@@ -21,7 +21,6 @@
             <?php
                 include "common/nextAgenda.php";
             ?>
-
             <?php
                 include "common/navbar.php";
             ?>

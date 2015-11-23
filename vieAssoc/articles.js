@@ -1,4 +1,68 @@
 var article = [
+	{
+        "titre": "Visite et Inauguration de l'école primaire à Meo Vac",
+        "reference": "Meovac2015",
+        "date": "Lundi 26 Octobre 2015",
+        "description": "Ca y est !!! Bien que fini de construire depuis février 2015, lundi 26 octobre, Coup de Pouce et l’APE du Lycée Français ont participé à l’inauguration du nouveau bâtiment de l’école primaire à Méo Vac. Ce projet de construction de 3 salles de classes supplémentaires, cofinancé par Coup de Pouce, a pu voir le jour grâce à vous.<br>Nous avons été reçus par le directeur de l’école, le président du district de Méo Vac, les institutrices, le professeur de sport et bien sûr par les enfants eux-mêmes qui nous attendaient bien sagement en rang dans la cour.Après les discours officiels et les remerciements de coutumes, nous avons assisté à un petit spectacle organisé par les enfants. Chants, danse et musique traditionnelle mhong étaient au rendez-vous.<br>Coup de pouce, a par la même occasion apporté des vêtements chauds, des chaussures…après une collecte sur Hanoi qui fut fructueuse. Ces vêtements ont été distribués par les maitresses en fonction des besoins de chaque enfant.<br>Ce matin là, il y avait comme un air de fête !!!!!<br>Aujourd’hui, la centaine d’enfants de l’école primaire des villages de Chung Pa A et B bénéficient désormais de bonnes conditions de travail, chaque niveau scolaire à sa classe.<br>Et la suite me direz-vous !!! <br>Grace au soutien de l’association des amis du Vietnam de Marseille, Coup de Pouce va participer au financement du bétonnage de la cour (cela évitera la poussière et la boue les jours de pluie), la construction d’un mur de soutènement et enfin une réserve d’eau (2 à 3 mois dans l’année, la sècheresse est présente et il n’y a plus d’eau de ville).",
+        "images_group": [
+            {
+                "group":[
+	                {
+		                "url": "vieAssoc/images/meovac2_02.jpg",
+		                "caption": "jour de l'inauguration"
+	            	}
+            	]
+            },
+            {
+                "group":[
+	                {
+		                "url": "vieAssoc/images/meovac2_01.jpg",
+		                "caption": "la nouvelle école"
+	            	},
+	            	{
+		                "url": "vieAssoc/images/meovac2_04.jpg",
+		                "caption": "les enfant sont prêts"
+	            	}
+            	]
+            },
+            {
+                "group":[
+	                {
+		                "url": "vieAssoc/images/meovac2_05.jpg",
+		                "caption": "l'inauguration commence"
+	            	},
+	            	{
+		                "url": "vieAssoc/images/meovac2_08.jpg",
+		                "caption": "les enfant sont attentives et sages"
+	            	}
+            	]
+            },
+            {
+                "group":[
+	                {
+		                "url": "vieAssoc/images/meovac2_06.jpg",
+		                "caption": "Chants et ..."
+	            	},
+	            	{
+		                "url": "vieAssoc/images/meovac2_07.jpg",
+		                "caption": "... danses traditionnelles"
+	            	}
+            	]
+            },
+            {
+                "group":[
+	                {
+		                "url": "vieAssoc/images/meovac2_03.jpg",
+		                "caption": "les vêtements chauds sont arrivés"
+	            	},
+	            	{
+		                "url": "vieAssoc/images/meovac2_09.jpg",
+		                "caption": "nouvelle salle de classe"
+	            	}
+            	]
+            }
+        ]
+    },
     {
         "titre": "Participation au Vide Grenier du Cercle des Francophes",
         "reference": "VideGrenier2015",

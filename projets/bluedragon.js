@@ -28,31 +28,7 @@ var project = {
             "name": "streetkidsinvietnam.com",
             "url": "http://www.streetkidsinvietnam.com"
         }
-    ],
-	"display": function(){
-		$("#projectName").append(HTMLprojectName.replace("%data%", project.name));
-		$("#projectImage").append(HTMLprojectImage.replace("%data%",project.image));
-		$("#projectDesc").append(HTMLprojectDescription.replace("%data%",project.description));
-		$("#projectCout").append(HTMLprojectCout.replace("%data%", project.cout));
-
-		$("#projectPartenaires").append(HTMLprojectPartenairesStart);
-		for (var index in project.partenaires)
-        {
-            $("#projectPartenaires").append(HTMLprojectPartenaire.replace("%data%", project.partenaires[index].partenaire).replace("#",project.partenaires[index].url));
-		}
-
-		$("#projectDonateur").append(HTMLprojectDonStart);
-		for (var index in project.donateurs)
-        {
-			$("#projectDonateur").append(HTMLprojectDonateur.replace("%data%", project.donateurs[index].name));
-		}
-
-		$("#projectInfo").append(HTMLprojectInfoStart);
-		for (var index in project.info)
-		{
-			$("#projectInfo").append(HTMLprojectInfo.replace("%data%", project.info[index].name).replace("#", project.info[index].url));
-		}
-	}
+    ]
 }
 
-project.display();
+display(project);
