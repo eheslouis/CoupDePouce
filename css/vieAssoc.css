@@ -4,6 +4,7 @@ body{
 
 .list-articles, a{
 	color: #ef0000;
+	padding: 0px 0px;
 }
 
 .titre-articles{

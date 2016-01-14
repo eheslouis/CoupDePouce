@@ -12,12 +12,16 @@
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <script src="js/ie-emulation-modes-warning.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
         <!-- Custom styles for this template -->
         <link href="css/main.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
+        <link href="css/leftColumn.css" rel="stylesheet">
     </head>
 
     <body>
+        <div class="leftImage"></div>
+        <div class="rightImage"></div>
         <div class="container">
             <?php
                 include "common/nextAgenda.php";
@@ -29,10 +33,16 @@
             ?>
 
             <div class="row">
-                <div class="col-md-12">
-                    <iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=communication.cdpvn%40gmail.com&showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=400&amp;wkst=2&amp;hl=fr&amp;bgcolor=%23FFFFFF&amp;ctz=Asia%2FSaigon" style="border-width:0" frameborder="0" scrolling="no"></iframe>
+                <?php
+                include "common/leftColumn.php";
+                ?>
+                <div class="col-md-9">
+                    <iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=communication.cdpvn%40gmail.com&showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=MONTH&amp;height=400&amp;wkst=2&amp;hl=fr&amp;bgcolor=%23FFFFFF&amp;ctz=Asia%2FSaigon" style="border-width:0" frameborder="0" scrolling="no"></iframe>
                 </div>
             </div>
+            <?php
+                include "common/footer.php";
+            ?>
         </div>
 
 <!-- Bootstrap core JavaScript

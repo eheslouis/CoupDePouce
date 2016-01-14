@@ -12,83 +12,94 @@
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <script src="js/ie-emulation-modes-warning.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
         <!-- Custom styles for this template -->
         <link href="css/main.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
+        <link href="css/leftColumn.css" rel="stylesheet">
     </head>
 
     <body>
         <div class="container">
             <?php
                 include "common/nextAgenda.php";
-                echo "<div>".$thedifferentpart."</div>";
             ?>
             <?php
                 include "common/navbar.php";
-                echo "<div>".$thedifferentpart."</div>";
             ?>
 
-			<?php
+            <div class="row">
+                <?php
+                    include "common/leftColumn.php";
+                ?>
 
-			if(isset($_POST["email"]))
-			{
-				$email_to = "eheslouis@gmail.com";
-				$email_subject = "Message du site internet";
+                <div class="col-md-9">
+					<?php
 
-				function died($error)
-				{
-					echo "we are very sorry, but there were error(s) found with the form you submitted.";
-					echo "These errors appear below.<br /><br />";
-					echo $error."<br /><br />";
-					echo "Please go back and fix these errors.<br /><br />";
-					die();
-				}
+					if(isset($_POST["email"]))
+					{
+						$email_to = "eheslouis@gmail.com";
+						$email_subject = "Message du site internet";
 
-			// validation expected data exists
-				if(!isset($_POST['name']) ||
-					!isset($_POST['email']) ||
-					!isset($_POST['message'])) {
-						died('We are sorry, but there appears to be a problem with the form you submitted.');
-				}
-				$name = $_POST['name'];
-				$email_from = $_POST['email'];
-				$message = $_POST['message'];
+						function died($error)
+						{
+							echo "we are very sorry, but there were error(s) found with the form you submitted.";
+							echo "These errors appear below.<br /><br />";
+							echo $error."<br /><br />";
+							echo "Please go back and fix these errors.<br /><br />";
+							die();
+						}
 
-				$error_message = "";
-				$email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
-				if(!preg_match($email_exp,$email_from))
-				{
-					$error_message .= 'The Email Address you entered does not appear to be valid.<br />';
-				}
-				$string_exp = "/^[A-Za-z .'-]+$/";
-				if(strlen($message) < 2)
-				{
-					$error_message .= 'The message you entered do not appear to be valid.<br />';
-				}
+					// validation expected data exists
+						if(!isset($_POST['name']) ||
+							!isset($_POST['email']) ||
+							!isset($_POST['message'])) {
+								died('We are sorry, but there appears to be a problem with the form you submitted.');
+						}
+						$name = $_POST['name'];
+						$email_from = $_POST['email'];
+						$message = $_POST['message'];
 
-				if(strlen($error_message) > 0)
-				{
-						died($error_message);
-				}
+						$error_message = "";
+						$email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
+						if(!preg_match($email_exp,$email_from))
+						{
+							$error_message .= 'The Email Address you entered does not appear to be valid.<br />';
+						}
+						$string_exp = "/^[A-Za-z .'-]+$/";
+						if(strlen($message) < 2)
+						{
+							$error_message .= 'The message you entered do not appear to be valid.<br />';
+						}
 
-				function clean_string($string)
-				{
-					$bad = array("content-type","bcc:","to:","cc:","href");
-					return str_replace($bad,"",$string);
-				}
+						if(strlen($error_message) > 0)
+						{
+								died($error_message);
+						}
 
-				$email_message = "Nom: ".clean_string($name)."\n";
-				$email_message .= "Email: ".clean_string($email_from)."\n";
-				$email_message .= "Message: ".clean_string($message)."\n";
+						function clean_string($string)
+						{
+							$bad = array("content-type","bcc:","to:","cc:","href");
+							return str_replace($bad,"",$string);
+						}
 
-				$headers = 'From: webmaster@coupdepoucevn.org' . "\r\n" . 'Reply-To: '.$email_from . "\r\n" . 'X-Mailer: PHP/' . phpversion();
-				$return = @mail($email_to, $email_subject, $email_message, $headers);
-				if ($return == true)
-				{
-					echo 'Merci pour votre message. Nous vous contacterons très vite.';
-				}
-			}
-			?>
+						$email_message = "Nom: ".clean_string($name)."\n";
+						$email_message .= "Email: ".clean_string($email_from)."\n";
+						$email_message .= "Message: ".clean_string($message)."\n";
+
+						$headers = 'From: webmaster@coupdepoucevn.org' . "\r\n" . 'Reply-To: '.$email_from . "\r\n" . 'X-Mailer: PHP/' . phpversion();
+						$return = @mail($email_to, $email_subject, $email_message, $headers);
+						if ($return == true)
+						{
+							echo 'Merci pour votre message. Nous vous contacterons très vite.';
+						}
+					}
+					?>
+				</div>
+            </div>
+            <?php
+                include "common/footer.php";
+            ?>
 
         </div>
 <!-- Bootstrap core JavaScript ================================================== -->

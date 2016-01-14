@@ -11,12 +11,16 @@
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <script src="js/ie-emulation-modes-warning.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
         <!-- Custom styles for this template -->
         <link href="css/main.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
+        <link href="css/leftColumn.css" rel="stylesheet">
     </head>
 
     <body>
+        <div class="leftImage"></div>
+        <div class="rightImage"></div>
         <div class="container">
             <?php
                 include "common/nextAgenda.php";
@@ -25,9 +29,14 @@
                 include "common/navbar.php";
             ?>
 
-<!-- ================ CAROUSEL ================ -->
+<!-- ================ CENTER PART ================ -->
             <div class="row">
-                <div class="col-md-12">
+                <?php
+                include "common/leftColumn.php";
+                ?>
+
+<!-- ================ CAROUSEL ================ -->
+                <div class="col-md-9">
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
@@ -38,25 +47,17 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                             <div class="item active">
-                                <img src="images/test1.jpg" alt="first slide">
-                                <div class="carousel-caption">
-                                    <h1>example1</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sapiente officiis beatae, ut consequuntur. Quos minus neque eius, nemo sunt excepturi eveniet amet veritatis voluptatibus corporis ea, blanditiis porro ad!</p>
-                                </div>
+                                <img src="images/carousel/2.jpg" alt="first slide">
                             </div>
                             <div class="item">
-                                <img src="images/test2.jpg" alt="second slide">
-                                <div class="carousel-caption">
+                                <img src="images/carousel/MeoVac.jpg" alt="second slide">
+                                <!-- <div class="carousel-caption">
                                     <h1>example2</h1>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sapiente officiis beatae, ut consequuntur. Quos minus neque eius, nemo sunt excepturi eveniet amet veritatis voluptatibus corporis ea, blanditiis porro ad!</p>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <img src="images/test3.jpg" alt="third slide">
-                                <div class="carousel-caption">
-                                    <h1>example3</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita sapiente officiis beatae, ut consequuntur. Quos minus neque eius, nemo sunt excepturi eveniet amet veritatis voluptatibus corporis ea, blanditiis porro ad!</p>
-                                </div>
+                                <img src="images/carousel/phuc-tue.jpg" alt="third slide">
                             </div>
                         </div>
                         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -68,12 +69,8 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-                </div>
-            </div>
 
 <!-- ================ PARTENAIRES ================ -->
-            <div class="row">
-                <div class="col-md-12 col-centered">
                     <div class="partenaires">
                         <a href="http://www.ambafrance-vn.org/"><img src="http://www.ambafrance-vn.org/plugins-dist/mae/img/skin/logo-mae.png"></a>
                         <a href="http://www.axa.com/"><img src="https://www.axa.fr/etc/designs/axa/axa-fr-desktop/clientlib_publish/img/logo/logo-axa.png"></a>
@@ -93,7 +90,12 @@
                     </div>
                 </div>
             </div>
+            <?php
+                include "common/footer.php";
+            ?>
         </div>
+
+
 
 <!-- Bootstrap core JavaScript
     ================================================== -->

@@ -11,16 +11,20 @@
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <script src="js/ie-emulation-modes-warning.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
         <!-- Custom styles for this template -->
         <link href="css/main.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
         <link href="css/projects.css" rel="stylesheet">
+        <link href="css/leftColumn.css" rel="stylesheet">
         <script src="js/jQuery.js"></script>
         <!-- More on helper.js in the class -->
         <script src="projets/projects.js"></script>
     </head>
 
     <body>
+        <div class="leftImage"></div>
+        <div class="rightImage"></div>
         <div class="container">
             <?php
                 include "common/nextAgenda.php";
@@ -30,6 +34,9 @@
             ?>
             <?php
                 include "projets/projet.php";
+            ?>
+            <?php
+                include "common/footer.php";
             ?>
         </div>
 

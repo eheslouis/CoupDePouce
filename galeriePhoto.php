@@ -12,12 +12,16 @@
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <script src="js/ie-emulation-modes-warning.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
         <!-- Custom styles for this template -->
         <link href="css/main.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
+        <link href="css/leftColumn.css" rel="stylesheet">
     </head>
 
     <body>
+        <div class="leftImage"></div>
+        <div class="rightImage"></div>
         <div class="container">
             <?php
                 include "common/nextAgenda.php";
@@ -25,20 +29,31 @@
             <?php
                 include "common/navbar.php";
             ?>
-            <!--START JUICEBOX EMBED-->
-            <script src="gallerie/jbcore/juicebox.js"></script>
-            <script>
-            new juicebox({
-            baseUrl: "gallerie/",
-            containerId: "juicebox-container",
-            galleryWidth: "100%",
-            galleryHeight: "100%",
-            backgroundColor: "rgba(255,255,255,1)"
-            });
-            </script>
-            <div id="juicebox-container"></div>
-            <!--END JUICEBOX EMBED-->
-        </div>
+            <div class="row">
+                <?php
+                include "common/leftColumn.php";
+                ?>
+
+                 <div class="col-md-9">
+                    <!--START JUICEBOX EMBED-->
+                    <script src="gallerie/jbcore/juicebox.js"></script>
+                    <script>
+                    new juicebox({
+                    baseUrl: "gallerie/",
+                    containerId: "juicebox-container",
+                    galleryWidth: "100%",
+                    galleryHeight: "100%",
+                    backgroundColor: "rgba(255,255,255,1)"
+                    });
+                    </script>
+                    <div id="juicebox-container"></div>
+                    <!--END JUICEBOX EMBED-->
+                </div>
+            </div>
+            <?php
+                include "common/footer.php";
+            ?>
+        </div
 
 <!-- Bootstrap core JavaScript
     ================================================== -->

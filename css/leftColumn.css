@@ -1,0 +1,62 @@
+
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+.btn
+{
+	margin: 5px 5px;
+	padding: 6px 0px;
+	font-size: 18px;
+	font-weight: bold;
+	border-width: 2px;
+}
+
+.btn-don
+{
+	background-color: #ff8f80;
+	border-color: #ff4c33;
+	color: #000000;
+}
+
+.btn-membre
+{
+	background-color: #ffa180;
+	border-color: #ff6933;
+	color: #000000;
+}
+
+.btn-newsletter
+{
+	background-color: #ffb780;
+	border-color: #ff8c33;
+	color: #000000;
+}
+
+.btn-email
+{
+	background-color: #ffd080;
+	border-color: #ffb433;
+	color: #000000;
+}
+
+.btn-facebook
+{
+	background-color: #ffef80;
+	border-color: #ffe633;
+	color: #000000;
+}
+
+
+/* CUSTOMIZE THE SOCIAL ICON
+-------------------------------------------------- */
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+/*
+.social{
+  margin: 0 auto;
+  max-width: 50em;
+  text-shadow: 3px 3px 3px #ffffff;
+}*/

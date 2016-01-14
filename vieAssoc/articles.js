@@ -21,7 +21,7 @@ var article = [
 	            	},
 	            	{
 		                "url": "vieAssoc/images/meovac2_04.jpg",
-		                "caption": "les enfant sont prêts"
+		                "caption": "les enfants sont prêts"
 	            	}
             	]
             },
@@ -33,7 +33,7 @@ var article = [
 	            	},
 	            	{
 		                "url": "vieAssoc/images/meovac2_08.jpg",
-		                "caption": "les enfant sont attentives et sages"
+		                "caption": "les enfants sont attentives et sages"
 	            	}
             	]
             },

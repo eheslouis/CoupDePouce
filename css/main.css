@@ -1,7 +1,6 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-@import url(http://weloveiconfonts.com/api/?family=zocial);
 
 
 /** {
@@ -10,13 +9,33 @@
 
 
 body {
+  font-family: 'Vollkorn', serif;
   padding-bottom: 40px;
   color: #5a5a5a;
+  background-color: #fafafa;
 }
 
 .container {
   padding-right: 5px;
   padding-left: 5px;
+  background: #ffffff;
+  width: 80%;
+}
+
+.leftImage {
+   background: url(../images/logo.jpg);
+   width: 0%;
+   position: absolute;
+   left: 0px;
+   height: 300px;
+}
+
+.rightImage {
+   background: url(../images/logo.jpg);
+   width: 0%;
+   position: absolute;
+   right: 0px;
+   height: 300px;
 }
 
 .a-agenda {
@@ -32,42 +51,8 @@ body {
   max-width: 70%;
 }
 
-/* CUSTOMIZE THE SOCIAL ICON
--------------------------------------------------- */
-
-[class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
-  font-size: 12px;
-}
-
-.social{
-  margin: 0 auto;
-  max-width: 50em;
-  text-shadow: 3px 3px 3px #aaa;
-}
-
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
-
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar-collapse {
-  /*position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
-  margin: auto;*/
-}
-
-/* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.navbar-logo {
-  width: 100px;
-}
 
 .sub-item-menu{
   padding-left: 1em;
@@ -75,7 +60,7 @@ body {
 
 .navbar-wrapper,
 .dropdown-menu {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -116,14 +101,17 @@ body {
 .carousel .item {
   height: 500px;
   background-color: #ffffff;
+  text-align: center;
 }
 
 .carousel-inner > .item > img {
-  position: absolute;
+  /*position: absolute;
   top: 0;
   left: 5%;
   min-width: 70%;
-  max-width: 70%;
+  max-width: 70%;*/
+  margin-left: auto;
+  margin-right: auto;
   height: 500px;
 }
 
@@ -174,6 +162,37 @@ body {
 }
 
 
+/* FOOTER CSS
+-------------------------------------------------- */
+.pied-de-page{
+  background: #fff6b3;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+.adresse{
+  padding-top: 20px;
+}
+
+.adresse p{
+  line-height: 9px;
+  font-size: 12px;
+}
+
+/* CONTACT CSS
+-------------------------------------------------- */
+.btn-send
+{
+  padding: 5px 5px;
+  font-size: 18px;
+  font-weight: bold;
+  border-width: 2px;
+  background-color: #ff8f80;
+  border-color: #ff4c33;
+  color: #000000;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -183,16 +202,18 @@ body {
     padding-left: 0px;
   }
 
+  .leftImage
+  {
+    width: 10%;
+  }
+
+  .rightImage
+  {
+    width: 10%;
+  }
+
   .a-agenda {
   font-size: 14px;
-  }
-
-  .navbar-logo {
-    width: 120px;
-  }
-
-  .navbar-nav {
-    margin-top: 27px;
   }
 
   .navbar-nav > li > a
@@ -201,13 +222,20 @@ body {
     padding-bottom: 5px;
   }
 
+  .navbar-default .navbar-nav > li {
+    width: 16.66%;
+  }
+
   .navbar {
     min-height: 30px;
   }
 
-  .navbar-nav > li > a {
-    padding-left: 5px;
-    padding-right: 5px;
+  .navbar-wrapper,
+  .dropdown-menu,
+  .dropdown-header,
+  [class*="zocial-"]:before {
+    font-size: 15px;
+    font-weight: bold;
   }
 
   .navbar .navbar-nav {
@@ -245,14 +273,14 @@ body {
 
 @media (min-width: 998px) {
    .container {
-    width: 998px;
+    width: 80%;
   }
 
   .navbar-wrapper,
   .dropdown-menu,
-  .dropdown-header,
-  [class*="zocial-"]:before {
-    font-size: 13px;
+  .dropdown-header {
+    font-size: 15px;
+    font-weight: bold;
   }
 
   .navbar-wrapper .navbar {
@@ -260,22 +288,9 @@ body {
     padding-left: 0;
   }
 
-  .navbar-nav {
-    margin-top: 42px;
-  }
-
-  .navbar-logo {
-    width: 160px;
-  }
-
   /* The navbar becomes detached from the top, so we round the corners */
   .navbar-wrapper .navbar {
     border-radius: 4px;
-  }
-
-  .navbar-nav > li > a {
-    padding-left: 15px;
-    padding-right: 15px;
   }
 
   /* Bump up size of carousel content */

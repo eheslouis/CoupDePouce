@@ -12,13 +12,19 @@
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <script src="js/ie-emulation-modes-warning.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
         <!-- Custom styles for this template -->
         <link href="css/main.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
+        <link href="css/projects.css" rel="stylesheet">
+        <link href="css/leftColumn.css" rel="stylesheet">
         <link href="css/vieAssoc.css" rel="stylesheet">
+        <script src="js/jQuery.js"></script>
     </head>
 
     <body>
+        <div class="leftImage"></div>
+        <div class="rightImage"></div>
         <div class="container">
             <?php
                 include "common/nextAgenda.php";
@@ -26,8 +32,16 @@
             <?php
                 include "common/navbar.php";
             ?>
+            <div class="row">
+                <?php
+                    include "common/leftColumn.php";
+                ?>
+                <?php
+                    include "vieAssoc/articles.php"
+                ?>
+            </div>
             <?php
-                include "vieAssoc/articles.php"
+                include "common/footer.php";
             ?>
         </div>
 

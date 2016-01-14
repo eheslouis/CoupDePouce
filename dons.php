@@ -12,20 +12,30 @@
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <script src="js/ie-emulation-modes-warning.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
         <!-- Custom styles for this template -->
         <link href="css/main.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
+        <link href="css/leftColumn.css" rel="stylesheet">
     </head>
 
     <body>
+        <div class="leftImage"></div>
+        <div class="rightImage"></div>
         <div class="container">
             <?php
                 include "common/nextAgenda.php";
-                echo "<div>".$thedifferentpart."</div>";
             ?>
             <?php
                 include "common/navbar.php";
-                echo "<div>".$thedifferentpart."</div>";
+            ?>
+            <div class="row">
+                <?php
+                    include "common/leftColumn.php";
+                ?>
+            </div>
+            <?php
+                include "common/footer.php";
             ?>
         </div>
 
