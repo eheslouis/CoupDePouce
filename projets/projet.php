@@ -1,8 +1,5 @@
 <div class="row">
-    <?php
-        include "common/leftColumn.php";
-    ?>
-    <div class="col-md-9">
+    <div class="col-md-9 col-md-push-3">
         <div class="project-name" id="projectName"></div>
         <div class="project-image" id="projectImage"></div>
         <div class="col-md-6">
@@ -16,4 +13,7 @@
             <div class="project-info" id="projectInfo"></div>
         </div>
     </div>
+    <?php
+        include "common/leftColumn.php";
+    ?>
 </div>

@@ -1,0 +1,25 @@
+.contenu
+{
+	padding: 0 2em;
+	text-align: justify;
+}
+
+.row-eq-height {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	border: 1px solid;
+}
+
+.years {
+	text-align: right;
+}
+
+.border_table {
+	border-right: 1px solid;
+}
+
+.row-eq-height +.row-eq-height {
+	border-top: 0;
+}

@@ -1,0 +1,53 @@
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+#carousel {
+  height: 360px;
+  margin-bottom : 10px;
+}
+
+#carousel > .carousel-inner {
+  height: 100%;
+}
+
+.carousel {
+  margin-top: 20px;
+}
+
+#carousel .item {
+  height: 360px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.item .thumb {
+  width: 12.5%;
+  height: 70px;
+  cursor: pointer;
+  float: left;
+  text-align: center;
+}
+
+.item .thumb img {
+  max-width: 95%;
+  max-height: 100%;
+}
+
+.carousel-inner>.item>img {
+  margin: auto;
+  max-width: 80%;
+  max-height: 100%;
+}
+
+.carousel-control.right, .carousel-control.left {
+  background-image:none;
+}
+
+.carousel-control:hover,
+.carousel-control:focus,
+.carousel-control {
+  color: #ef0000;
+  width: 5%;
+}
+

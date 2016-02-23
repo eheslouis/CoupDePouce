@@ -30,11 +30,7 @@
                 include "common/navbar.php";
             ?>
              <div class="row">
-                <?php
-                    include "common/leftColumn.php";
-                ?>
-
-                <div class="col-md-9">
+                <div class="col-md-9 col-md-push-3">
                     <div class="row">
                         <div class="col-md-2"></div>
                         <div class="col-md-8">
@@ -77,7 +73,13 @@
                         </div>
                     </div>
                 </div>
+                <?php
+                    include "common/leftColumn.php";
+                ?>
             </div>
+            <?php
+                include "common/footer.php";
+            ?>
         </div>
 <!-- Bootstrap core JavaScript ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

@@ -1,17 +1,17 @@
 <!-- ================ BANNER ================ -->
-            <div class="row">
+            <div class="row banner-row">
                 <div class="col-md-12">
                     <a href="index.php">
                         <picture>
-                            <source media="(max-width:768px)" srcset="images/banner_small.jpg">
-                            <img class="banner" src="images/banner.jpg">
+                            <source media="(max-width:768px)" srcset="images/bannerCouleur.jpg">
+                            <img class="banner" src="images/bannerCouleur.jpg">
                         </picture>
                     </a>
                 </div>
             </div>
 <!-- ================ NAVBAR ================ -->
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 col-nav">
                     <div class="navbar-wrapper">
                         <nav class="navbar navbar-default navbar-static-top">
                             <div class="navbar-header">
@@ -26,9 +26,9 @@
                                         <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Notre Association <b class="caret"></b></a>
                                         <ul class="dropdown-menu" role="menu">
                                             <li class="sub-item-menu"><a href="assoc.php">Qui sommes-nous</a></li>
-                                            <li class="sub-item-menu"><a href="#">Le Conseil d'Aministration</a></li>
-                                            <li class="sub-item-menu"><a href="#">Informations Légales</a></li>
-                                            <li class="sub-item-menu"><a href="#">Rapports Annuels</a></li>
+                                            <li class="sub-item-menu"><a href="CA.php">Le Conseil d'Aministration</a></li>
+                                            <li class="sub-item-menu"><a href="chiffres.php">Coup de Pouce en Chiffres</a></li>
+                                            <li class="sub-item-menu"><a href="infosLegales.php">Informations Légales</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
@@ -42,10 +42,10 @@
                                     <li class="dropdown">
                                         <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Le Parrainage<b class="caret"></b></a>
                                         <ul class="dropdown-menu" role="menu">
-                                            <li class="sub-item-menu"><a href="#">Pourquoi</a></li>
-                                            <li class="sub-item-menu"><a href="#">Qui</a></li>
-                                            <li class="sub-item-menu"><a href="#">Comment</a></li>
-                                            <li class="sub-item-menu"><a href="#">Galerie Photo</a></li>
+                                            <li class="sub-item-menu"><a href="parrainage.php#pourquoi">Pourquoi</a></li>
+                                            <li class="sub-item-menu"><a href="parrainage.php#qui">Qui</a></li>
+                                            <li class="sub-item-menu"><a href="parrainage.php#comment">Comment</a></li>
+                                            <li class="sub-item-menu"><a href="galerieParrainage.php">Galerie Photo</a></li>
                                         </ul>
                                     </li>
 
@@ -57,17 +57,7 @@
                                             <li class="sub-item-menu"><a href="habitat.php">Amélioration de l'habitat</a></li>
                                             <li class="divider"></li>
                                             <li class="dropdown-header">Autres projets</li>
-                                            <!-- <li class="sub-item-menu dropdown">
-                                                <a class="dropdown-toggle" data-toggle="dropdown2" role="button2" aria-expanded="false">Construction d'écoles <b class="caret"></b></a>
-                                                <ul class="dropdown-menu dropdown-menu-right" role="menu2">
-                                                    <li class="sub-item-menu"><a href="meovac2.php">Meo-Vac 2015-2016</a></li>
-                                                    <li class="sub-item-menu"><a href="meovac.php">Meo-Vac 2013-2014</a></li>
-                                                </ul>
-                                                <ul class="dropdown-menu dropdown-menu-right" role="menu2">
-                                                    <li class="sub-item-menu">meo vac1</li>
-                                                </ul>
-                                            </li> -->
-                                            <li class="sub-item-menu"><a href="meovac2.php">Construction d'écoles à Meo Vac 2015-2015</a></li>
+                                            <li class="sub-item-menu"><a href="meovac2.php">Construction d'écoles à Meo Vac 2015-2016</a></li>
                                             <li class="sub-item-menu"><a href="meovac.php">Construction d'écoles à Meo Vac 2013-2014</a></li>
                                             <li class="sub-item-menu"><a href="phuctue.php">Centre d'accueil de Phuc Tue</a></li>
                                             <li class="sub-item-menu"><a href="bluedragon.php">Foyer Blue Dragon</a></li>
@@ -84,10 +74,6 @@
                                             <li class="sub-item-menu"><a href="boutique.php">Boutique</a></li>
                                         </ul>
                                     </li>
-
-                                    <!-- <li class="social"><a href="https://www.facebook.com/coupdepoucevn" target="_blank" class="zocial-facebook"></a></li>
-                                    <li class="social"><a href="#" class="zocial-twitter"></a></li>
-                                    <li class="social"><a href="contact.php" class="zocial-email"></a></li> -->
                                 </ul>
                             </div>
                         </nav>

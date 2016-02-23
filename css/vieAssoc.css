@@ -2,6 +2,11 @@ body{
 	color: black;
 }
 
+.no-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .list-articles, a{
 	color: #ef0000;
 	padding: 0px 0px;
@@ -25,16 +30,10 @@ figcaption{
 	font-size: 12px;
 }
 
-td{
+.col-img {
 	text-align: center;
 }
 
-table{
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
+.image-articles{
+	max-width: 100%;
 }
-
-/*.image-articles{
-	max-width: 260px;
-}*/

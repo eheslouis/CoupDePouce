@@ -1,5 +1,81 @@
 var article = [
 	{
+        "titre": "Fête du Tết 2016 des enfants parrainés",
+        "reference": "Tet2016",
+        "date": "Dimanche 24 Janvier 2016",
+        "description": "Chuc Mung Nam Moi ! <br>C'est ainsi que les familles parrainées ont été accueillies au restaurant Sum Villa pour la traditionnelle Fête du Têt organisée par Coup de Pouce. Nouveauté cette année, les enfants du programme de Bourse étaient aussi de la fête. Après les discours officiels, place au spectacle avec des matchs d'improvisation organisés avec les lycéens du lycée Hanoi-Amsterdam et l'Atelier Théâtre de Hanoi. Les enfants ont même pu participer, ce qui a déclenché de nombreux fous-rires dans le public des parents.<br>Après un déjeuner copieux, chaque enfant a reçu des étrennes et le panier du Têt, contenant les spécialités vietnamiennes de cette grande fête.<br>Merci à AMICA Travel, aux donateurs privés et au bénévoles d'avoir largement contribué au succès de cette journée : les sourires des enfants en sont la plus belle illustration !",
+        "images_group": [
+            {
+                "group":[
+	                {
+		                "url": "vieAssoc/images/tet2016-01.JPG",
+		                "caption": "Tout le monde est arrivé"
+	            	}
+            	]
+            },
+            {
+                "group":[
+	                {
+		                "url": "vieAssoc/images/tet2016-02.JPG",
+		                "caption": "Le spectacle peut commencer"
+	            	},
+	            	{
+		                "url": "vieAssoc/images/tet2016-03.JPG",
+		                "caption": "les enfants sont prêts"
+	            	}
+            	]
+            },
+            {
+                "group":[
+	                {
+		                "url": "vieAssoc/images/tet2016-04.JPG",
+		                "caption": "Les enfants participent au spectacle..."
+	            	},
+	            	{
+		                "url": "vieAssoc/images/tet2016-05.JPG",
+		                "caption": "...sous forme de votes!"
+	            	}
+            	]
+            },
+            {
+                "group":[
+	                {
+		                "url": "vieAssoc/images/tet2016-06.JPG",
+		                "caption": "Après le spectacle,"
+	            	},
+	            	{
+		                "url": "vieAssoc/images/tet2016-07.JPG",
+		                "caption": "place au repas."
+	            	}
+            	]
+            },
+            {
+                "group":[
+	                {
+		                "url": "vieAssoc/images/tet2016-08.JPG",
+		                "caption": "Un repas chaud"
+	            	},
+	            	{
+		                "url": "vieAssoc/images/tet2016-09.JPG",
+		                "caption": "et dans la bonne humeur."
+	            	}
+            	]
+            },
+            {
+                "group":[
+	                {
+		                "url": "vieAssoc/images/tet2016-10.JPG",
+		                "caption": "Tout le monde est reparti avec le sourire"
+	            	},
+	            	{
+		                "url": "vieAssoc/images/tet2016-11.JPG",
+		                "caption": "Merci aux bénévoles !!"
+	            	}
+            	]
+            }
+        ]
+    },
+	{
         "titre": "Visite et Inauguration de l'école primaire à Meo Vac",
         "reference": "Meovac2015",
         "date": "Lundi 26 Octobre 2015",
@@ -95,7 +171,7 @@ var article = [
             },
             {
                 "url": "vieAssoc/images/CafeRentree2015_03.jpg",
-                "caption": "Brice Belian, Trésorier de Français Solidaires<br>remettant une part des recettes du Pot des Français"
+                "caption": "Brice Belian, Trésorier de Français Solidaires remettant une part des recettes du Pot des Français"
             }
         ]
     },
@@ -103,23 +179,23 @@ var article = [
         "titre": "Assemblée Générale du 24 Mars 2015",
         "reference": "AG2015",
         "date": "mardi 24 Mars 2015",
-        "description": "Ce mardi 24 mars, le Conseil d'Administration de Coup de Pouce Vietnam pour l'année 2014-2015 a démissionné, après lecture et approbation des rapports d'activité et financier de l'association.<br>Un grand merci à Gwladys Galeron, Anne Rozo, Delphine Falchier, Margot Biaggi, Annie Bocquet, Laure Berardi, Catherine Rossi, Véronique Duteurtre et Marité Sauthier pour leur action, leur temps et leur dévouement au sein du Conseil d'Administration de l'association. Par ailleurs, de nombreuses personnes sont activement impliquées dans des projets ou dans la vie de l'association et nous les remercions chaleureusement pour leur engagement.<br>Un nouveau <a href=\"conseil-administration.html\" target=\"_blank\">CONSEIL D'ADMINISTRATION</a> a été élu à l'unanimité pour l'année 2015 - 2016 : une nouvelle équipe de bénévoles prêtes à s'investir pour Coup de Pouce VN !<br>Les membres du nouveau CA se sont réunis vendredi 27 mars et ont désigné les membres du <strong>BUREAU</strong> aux postes de Présidente, Vice-présidente, Trésorière et Secrétaire. Nous avons des pensées pour Marité, la fidèle représentante de l'association en France !",
+        "description": "Ce mardi 24 mars, le Conseil d'Administration de Coup de Pouce Vietnam pour l'année 2014-2015 a démissionné, après lecture et approbation des rapports d'activité et financier de l'association.<br>Un grand merci à Gwladys Galeron, Anne Rozo, Delphine Falchier, Margot Biaggi, Annie Bocquet, Laure Berardi, Catherine Rossi, Véronique Duteurtre et Marité Sauthier pour leur action, leur temps et leur dévouement au sein du Conseil d'Administration de l'association. Par ailleurs, de nombreuses personnes sont activement impliquées dans des projets ou dans la vie de l'association et nous les remercions chaleureusement pour leur engagement.<br>Un nouveau <a href=\"CA.php\">CONSEIL D'ADMINISTRATION</a> a été élu à l'unanimité pour l'année 2015 - 2016 : une nouvelle équipe de bénévoles prêtes à s'investir pour Coup de Pouce VN !<br>Les membres du nouveau CA se sont réunis vendredi 27 mars et ont désigné les membres du <strong>BUREAU</strong> aux postes de Présidente, Vice-présidente, Trésorière et Secrétaire. Nous avons des pensées pour Marité, la fidèle représentante de l'association en France !",
         "images": [
             {
                 "url": "vieAssoc/images/AG_01.jpg",
-                "caption": "Véronique et Delphine nous quitteront en juin <br>et recoivent des lampes de bureau en souvenir!"
+                "caption": "Véronique et Delphine nous quitteront en juin et recoivent des lampes de bureau en souvenir!"
             },
             {
                 "url": "vieAssoc/images/AG_02.jpg",
-                "caption": "Tous les membres présents à l'AG... <br>Prêts à donner un coup de pouce!"
+                "caption": "Tous les membres présents à l'AG... Prêts à donner un coup de pouce!"
             },
             {
                 "url": "vieAssoc/images/AG_03.jpg",
-                "caption": "L'ancienne équipe 2014-2015<br>(sans oublier Gwladys et Marité)"
+                "caption": "L'ancienne équipe 2014-2015 (sans oublier Gwladys et Marité)"
             },
             {
                 "url": "vieAssoc/images/AG_04.jpg",
-                "caption": "La nouvelle équipe 2015-2016<br>(avec Marité)"
+                "caption": "La nouvelle équipe 2015-2016 (avec Marité)"
             }
         ]
     },
@@ -127,7 +203,7 @@ var article = [
         "titre": "Fête du Tết des enfants parrainés",
         "reference": "Tet015",
         "date": "Dimanche 8 février 2015",
-        "description": "La <strong>Fête du Tết <a href=\"parrainages.html\" target=\"_blank\">des enfants parrainés de CDPVN</a></strong> a eu lieu dimanche 8 février au restaurant Sen Viet à Tây Hồ. Sur les 36 enfants parrainés, trois enfants n'ont pas pu y assister pour raisons médicales ou parce que l'un d'eux devait aller en classe. Les 33 autres enfants sont tous venus, accompagnés d'un adulte et parfois d'un frère ou d'une sœur. Les invités officiels ont également tous répondu présents à notre invitation : M. Binh et Mme Huyen, représentant la Caisse de protection de l'enfance de la ville de Hanoi et Lien de l'ONG Bright Future. Comme toujours, Anita était parmi nous pour assurer les traductions, avec l'aide d'Emmanuelle Van, Mai Anh, Sao Mai et An. Une équipe de 12 membres de CDPVN étaient également  présente pour assurer l'organisation sur place.<br>Après le <strong>discours de bienvenue</strong> de Laure et Annie, les <strong>paniers du Tết</strong> ont été offerts aux officiels et à Anita. M. Binh a répondu en remerciant vivement Coup de Pouce pour le travail accompli durant l'année 2014<br>Puis, les enfants se sont installés sur une natte devant la scène pour assister à une pièce de théâtre  présentée par Marianne et Quentin de l'Atelier de Théâtre de Hanoi : <strong>\"le Chevalier à l'armure rouillée\"</strong>, jouée en français et en vietnamien par Marianne et Loan.  C'était une belle représentation ; petits et grands ont été captivés par le spectacle et quatre enfants ont même accepté de  monter sur scène pour jouer un petit rôle, encouragés par Loan. <br>Le <strong>buffet</strong> a ensuite été servi, à la grande joie des familles, qui ont apprécié les différents plats.  Vers 11h30, nous avons  procédé à l'appel des enfants parrainés pour la distribution des colis du Tết. Cette année, afin de faire moins patienter les familles, nous avions installé deux tables de distribution.  Chaque enfant a reçu <strong>ses étrennes, son colis du Tết et son colis alimentaire de février</strong>.  La fête s'est terminée vers 12h30.<br>Chaque parrain ou marraine recevra un compte-rendu de cette belle fête, accompagné de photos de leur(e) filleul(e) et de sa famille prises devant le kumquat du Tết.<br><strong>Un grand bravo à Laurette et Annie, responsables du projet parrainages et un grand merci à tous les bénévoles pour leur  aide et leur disponibilité!</strong>",
+        "description": "La <strong>Fête du Tết <a href=\"parrainage.php\" target=\"_blank\">des enfants parrainés de CDPVN</a></strong> a eu lieu dimanche 8 février au restaurant Sen Viet à Tây Hồ. Sur les 36 enfants parrainés, trois enfants n'ont pas pu y assister pour raisons médicales ou parce que l'un d'eux devait aller en classe. Les 33 autres enfants sont tous venus, accompagnés d'un adulte et parfois d'un frère ou d'une sœur. Les invités officiels ont également tous répondu présents à notre invitation : M. Binh et Mme Huyen, représentant la Caisse de protection de l'enfance de la ville de Hanoi et Lien de l'ONG Bright Future. Comme toujours, Anita était parmi nous pour assurer les traductions, avec l'aide d'Emmanuelle Van, Mai Anh, Sao Mai et An. Une équipe de 12 membres de CDPVN étaient également  présente pour assurer l'organisation sur place.<br>Après le <strong>discours de bienvenue</strong> de Laure et Annie, les <strong>paniers du Tết</strong> ont été offerts aux officiels et à Anita. M. Binh a répondu en remerciant vivement Coup de Pouce pour le travail accompli durant l'année 2014<br>Puis, les enfants se sont installés sur une natte devant la scène pour assister à une pièce de théâtre  présentée par Marianne et Quentin de l'Atelier de Théâtre de Hanoi : <strong>\"le Chevalier à l'armure rouillée\"</strong>, jouée en français et en vietnamien par Marianne et Loan.  C'était une belle représentation ; petits et grands ont été captivés par le spectacle et quatre enfants ont même accepté de  monter sur scène pour jouer un petit rôle, encouragés par Loan. <br>Le <strong>buffet</strong> a ensuite été servi, à la grande joie des familles, qui ont apprécié les différents plats.  Vers 11h30, nous avons  procédé à l'appel des enfants parrainés pour la distribution des colis du Tết. Cette année, afin de faire moins patienter les familles, nous avions installé deux tables de distribution.  Chaque enfant a reçu <strong>ses étrennes, son colis du Tết et son colis alimentaire de février</strong>.  La fête s'est terminée vers 12h30.<br>Chaque parrain ou marraine recevra un compte-rendu de cette belle fête, accompagné de photos de leur(e) filleul(e) et de sa famille prises devant le kumquat du Tết.<br><strong>Un grand bravo à Laurette et Annie, responsables du projet parrainages et un grand merci à tous les bénévoles pour leur  aide et leur disponibilité!</strong>",
         "images_group": [
             {
                 "group":[
@@ -263,7 +339,7 @@ var article = [
         "titre": "Réunion de Présentation de Coup de Pouce VN",
         "reference": "presentation2015",
         "date": "mardi 3 février 2015",
-        "description": "Une quinzaine de personnes se sont rendues à la <strong>réunion de présentation des activités de l'association</strong> qui  était organisée mardi 3 février chez Anne : elles ont reçu des informations sur <strong><a href=\"img/files/statuts.pdf\" target=\"_blank\" >les statuts</a> et le fonctionnement</strong> de CDPVN, <strong> les <a href=\"projets.html\" target=\"_blank\">projets</a> soutenus ou mis en oeuvre</strong> par CDPVN (les anciens projets, les projets en cours et le projet <a href=\"parrainages.html\">parrainages</a>), <strong>les <a href=\"evenements.html\" target=\"_blank\">évènements</a> organisés chaque année</strong> (<a href=\"concours-photos.html\">concours photos</a>, calendriers, <a href=\"bazars.html\">bazars</a>, vente de livres d'occasion, etc.), ainsi que sur <strong>les différents postes du conseil d'administration et du bureau</strong> qui seront à pourvoir lors de la prochaine <a href=\"ag.html\" target=\"_blank\">Assemblée Générale</a> de Coup de Pouce Vietnam. Certaines d'entre elles se sont portées volontaires pour intégrer la future équipe 2014/2015. Merci à toutes pour votre présence et votre intérêt pour notre association !",
+        "description": "Une quinzaine de personnes se sont rendues à la <strong>réunion de présentation des activités de l'association</strong> qui  était organisée mardi 3 février chez Anne : elles ont reçu des informations sur <strong><a href=\"img/files/statuts.pdf\" target=\"_blank\" >les statuts</a> et le fonctionnement</strong> de CDPVN, <strong> les projets soutenus ou mis en oeuvre</strong> par CDPVN (les anciens projets, les projets en cours et le projet <a href=\"parrainage.php\">parrainages</a>), <strong>les évènements organisés chaque année</strong> (concours photos, calendriers, bazars, vente de livres d'occasion, etc.), ainsi que sur <strong>les différents postes du conseil d'administration et du bureau</strong> qui seront à pourvoir lors de la prochaine Assemblée Générale de Coup de Pouce Vietnam. Certaines d'entre elles se sont portées volontaires pour intégrer la future équipe 2014/2015. Merci à toutes pour votre présence et votre intérêt pour notre association !",
         "images": [
             {
                 "url": "vieAssoc/images/presentation_01.jpg",
@@ -279,7 +355,7 @@ var article = [
         "titre": "Invitation à célébrer le TET 2015 à Tam Coc Garden",
         "reference": "TamCoc2015",
         "date": "Samedi 31 janvier et dimanche 1er février 2015",
-        "description": "Deux membres de Coup de Pouce Vietnam ont été invitées (avec leur famille) par l'agence <a href=\"https://www.amica-travel.com/\" target=\"_blank\">AMICA TRAVEL</a> à venir <strong>célébrer le Tết 2015</strong> dans leur hôtel \"<a href=\"http://www.tamcocgarden.com/fr\" target=\"_blank\">Tam Coc Garden</a>\", situé dans la Baie d'Halong terrestre. Amica Travel a soutenu l'association en 2014 en finançant pour 15 millions de VND la fête du Tết des enfants parrainés et en offrant le lot remis au gagnant du Premier Prix du Jury du <a href=\"concours-photos.html\">concours photos</a> 2014. <br />Ce week-end, organisé conjointement avec la <a href=\"http://www.ccifv.org/\" target=\"_blank\">CCIFV (Chambre de Commerce et d'Industrie Française au Vietnam)</a>, fut l'occasion de découvrir diverses activités qui animent les familles vietnamiennes à l'approche du Tết telles que la <strong>confection de \"bánh chưng\"</strong> (gâteau de riz gluant farci de porc et d'haricots préparé traditionnellement pour le Tết), l'apprentissage de l'art de la <strong>calligraphie vietnamienne \"thư pháp\"</strong> (utilisée au moment du Tết pour écrire les souhaits pour la nouvelle année) ou l'art de décorer le <strong>plateau aux cinq fruits \"Mâm ngu qua\"</strong> qui sera disposé sur l'autel des ancêtres. En voici un <a href=\"https://www.youtube.com/watch?v=lR2dVg6z3Uk&amp;feature=em-uploademail\" target=\"_blank\">REPORTAGE VIDEO</a>.<br><strong>Nous remercions vivement le Président  d'Amica Travel, M. Tran Quang Hieu, la Directrice de Tam Coc Garden, Mme Nguyen Thi Thu Huong, la Directrice marketing, Nguyen Phuong Anh et toute  l'équipe pour cet accueil chaleureux au Tam Coc Garden !</strong> En souhaitant que la coopération entre l'agence Amica Travel et Coup de Pouce Vietnam se poursuive pour la future année de la Chèvre.",
+        "description": "Deux membres de Coup de Pouce Vietnam ont été invitées (avec leur famille) par l'agence <a href=\"https://www.amica-travel.com/\" target=\"_blank\">AMICA TRAVEL</a> à venir <strong>célébrer le Tết 2015</strong> dans leur hôtel \"<a href=\"http://www.tamcocgarden.com/fr\" target=\"_blank\">Tam Coc Garden</a>\", situé dans la Baie d'Halong terrestre. Amica Travel a soutenu l'association en 2014 en finançant pour 15 millions de VND la fête du Tết des enfants parrainés et en offrant le lot remis au gagnant du Premier Prix du Jury du concours photos 2014. <br>Ce week-end, organisé conjointement avec la <a href=\"http://www.ccifv.org/\" target=\"_blank\">CCIFV (Chambre de Commerce et d'Industrie Française au Vietnam)</a>, fut l'occasion de découvrir diverses activités qui animent les familles vietnamiennes à l'approche du Tết telles que la <strong>confection de \"bánh chưng\"</strong> (gâteau de riz gluant farci de porc et d'haricots préparé traditionnellement pour le Tết), l'apprentissage de l'art de la <strong>calligraphie vietnamienne \"thư pháp\"</strong> (utilisée au moment du Tết pour écrire les souhaits pour la nouvelle année) ou l'art de décorer le <strong>plateau aux cinq fruits \"Mâm ngu qua\"</strong> qui sera disposé sur l'autel des ancêtres. En voici un <a href=\"https://www.youtube.com/watch?v=lR2dVg6z3Uk&amp;feature=em-uploademail\" target=\"_blank\">REPORTAGE VIDEO</a>.<br><strong>Nous remercions vivement le Président  d'Amica Travel, M. Tran Quang Hieu, la Directrice de Tam Coc Garden, Mme Nguyen Thi Thu Huong, la Directrice marketing, Nguyen Phuong Anh et toute  l'équipe pour cet accueil chaleureux au Tam Coc Garden !</strong> En souhaitant que la coopération entre l'agence Amica Travel et Coup de Pouce Vietnam se poursuive pour la future année de la Chèvre.",
         "images_group": [
             {
             	"group":[

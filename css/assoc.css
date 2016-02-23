@@ -1,0 +1,18 @@
+.contenu
+{
+	padding: 0 0 0 2em;
+	text-align: justify;
+}
+
+img
+{
+	padding-right: 1em;
+	width: 100%;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}

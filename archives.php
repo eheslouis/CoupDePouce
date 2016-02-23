@@ -24,11 +24,9 @@
         <div class="container">
             <?php
                 include "common/nextAgenda.php";
-                echo "<div>".$thedifferentpart."</div>";
             ?>
             <?php
                 include "common/navbar.php";
-                echo "<div>".$thedifferentpart."</div>";
             ?>
             <div class="row">
                 <?php

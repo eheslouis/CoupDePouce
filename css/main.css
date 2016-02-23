@@ -11,8 +11,17 @@
 body {
   font-family: 'Vollkorn', serif;
   padding-bottom: 40px;
-  color: #5a5a5a;
+  color: #000000;
   background-color: #fafafa;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.banner-row {
+  background-color: #fffcbf;
 }
 
 .container {
@@ -23,19 +32,19 @@ body {
 }
 
 .leftImage {
-   background: url(../images/logo.jpg);
+   background: url(../images/backgroundleft2.jpg);
    width: 0%;
    position: absolute;
    left: 0px;
-   height: 300px;
+   height: 530px;
 }
 
 .rightImage {
-   background: url(../images/logo.jpg);
+   background: url(../images/backgroundright2.jpg);
    width: 0%;
    position: absolute;
    right: 0px;
-   height: 300px;
+   height: 530px;
 }
 
 .a-agenda {
@@ -51,8 +60,13 @@ body {
   max-width: 70%;
 }
 
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
+.col-nav {
+  padding-left: 0;
+  padding-right: 0;
+}
 
 .sub-item-menu{
   padding-left: 1em;
@@ -61,85 +75,6 @@ body {
 .navbar-wrapper,
 .dropdown-menu {
   font-size: 15px;
-}
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-  height: 500px;
-  margin-bottom: 60px;
-}
-
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-}
-
-.carousel-caption > h1 {
-  color: #ef0000;
-}
-.carousel-caption > p {
-  color: #000000;
-  text-shadow: none;
-}
-
-.carousel-caption h1 {
-  margin-bottom: 15px;
-  font-size: 20px;
-  line-height: 1.0;
-}
-
-.carousel-caption p {
-  margin-bottom: 20px;
-  font-size: 15px;
-  line-height: 1.0;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 500px;
-  background-color: #ffffff;
-  text-align: center;
-}
-
-.carousel-inner > .item > img {
-  /*position: absolute;
-  top: 0;
-  left: 5%;
-  min-width: 70%;
-  max-width: 70%;*/
-  margin-left: auto;
-  margin-right: auto;
-  height: 500px;
-}
-
-.carousel-control.right, .carousel-control.left {
-  background-image:none;
-}
-
-.carousel-control:hover,
-.carousel-control:focus,
-.carousel-control {
-  color: #ef0000;
-  width: 5%;
-}
-
-.carousel-indicators > li {
-  background-color: #ef0000;
-}
-
-.carousel-indicators .active {
-  background-color: #ff7777;
-}
-
-.carousel-caption {
-  left: 1%;
-  right: 5%;
-  bottom: 20px;
-  padding-bottom: 0;
-  padding-left: 75%;
 }
 
 /*PARTENAIRE CSS
@@ -165,7 +100,7 @@ body {
 /* FOOTER CSS
 -------------------------------------------------- */
 .pied-de-page{
-  background: #fff6b3;
+  background: #fffcbf;
   margin-top: 10px;
   margin-right: 0px;
   margin-left: 0px;
@@ -235,7 +170,6 @@ body {
   .dropdown-header,
   [class*="zocial-"]:before {
     font-size: 15px;
-    font-weight: bold;
   }
 
   .navbar .navbar-nav {
@@ -271,16 +205,15 @@ body {
   }
 }
 
-@media (min-width: 998px) {
+@media (min-width: 992px) {
    .container {
-    width: 80%;
+    /*width: 70%;*/
   }
 
   .navbar-wrapper,
   .dropdown-menu,
   .dropdown-header {
     font-size: 15px;
-    font-weight: bold;
   }
 
   .navbar-wrapper .navbar {

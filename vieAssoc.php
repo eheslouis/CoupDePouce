@@ -34,10 +34,10 @@
             ?>
             <div class="row">
                 <?php
-                    include "common/leftColumn.php";
+                    include "vieAssoc/articles.php"
                 ?>
                 <?php
-                    include "vieAssoc/articles.php"
+                    include "common/leftColumn.php";
                 ?>
             </div>
             <?php

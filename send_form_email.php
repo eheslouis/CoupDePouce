@@ -29,11 +29,7 @@
             ?>
 
             <div class="row">
-                <?php
-                    include "common/leftColumn.php";
-                ?>
-
-                <div class="col-md-9">
+                <div class="col-md-9 col-md-push-3">
 					<?php
 
 					if(isset($_POST["email"]))
@@ -96,6 +92,9 @@
 					}
 					?>
 				</div>
+                <?php
+                    include "common/leftColumn.php";
+                ?>
             </div>
             <?php
                 include "common/footer.php";
