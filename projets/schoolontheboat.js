@@ -1,8 +1,21 @@
 var project = {
     "name": "SOB <br>Aide Alimentaire (sacs de riz)",
-    "image": "images/SOB.jpg",
-    "description": "D'anciens volontaires de Solidarité Jeunesse Vietnam (SJVN) ont créé l'association « School on the Boat » (SOB), suite à leur expérience au Vietnam, dans le but d'aider les enfants à suivre et rester à l'école. SOB a signé un partenariat avec l'association Vietnam and Friends (VAF) qui nourrit les mêmes objectifs et développe d'autres projets d'aide auprès des populations malvoyantes et aveugles, ainsi que la formation du personnel du parc naturel Xuan Thuy. <strong>CDPVN a été contactée par VAF pour soutenir leur projet de scolarisation d'enfants</strong> habitant  'the island',  'the fisher village' et un bidonville du quartier 'Long Bien'.<br>Comme  avec SJVN, CDPVN a accordé aux familles soutenues par VAF une <strong>aide mensuelle de 10 kgs de riz par enfant scolarisé régulièrement</strong>. Le projet a débuté en décembre 2012 pour 6 mois.<br>L'équipe <a href=\"parrainage.php\">parrainages</a> de CDPVN a assisté à la 1ère distribution afin de soutenir les volontaires et les conseiller pour l'organisation des prochaines distributions.<br>Une rencontre avec les équipes de VAF a eu lieu en mai 2013 pour faire un bilan et <strong>l'aide a été renouvelée pour 12 mois</strong> à partir de septembre 2013. Elle concerne 16 enfants.",
-    "cout": "- 2012 : Distribution de riz mensuelle aux familles de 16 enfants scolarisés pour 6 mois (11'000'000 VND)<br>- 2013-2014 : Distribution mensuelle de riz aux familles de 15 enfants scolarisés pendant 12 mois (20'000'000 VND) + 1 enfant nouvellement intégré au projet pendant 8 mois (880'000 VND)<br>- 2014-2015 : Distribution mensuelle de riz aux familles de 16 enfants scolarisés pendant 12 mois (24'120'000 VND)",
+    "image_group": [
+        {
+            "group":[
+                {
+                    "url":"images/SOB_logo.jpg",
+                    "caption":""
+                },
+                {
+                    "url":"images/SOB.jpg",
+                    "caption":""
+                }
+            ]
+        }
+    ],
+    "description": "L’association SOB a pour but de scolariser les enfants habitant au bord du fleuve rouge à Hanoi dans les 3 zones suivantes : « the island », « the fisher village » et un bidonville du quartier «Long Bien». Pour pouvoir exercer au Vietnam, SOB a signé un partenariat avec l’association Vietnam and Friends (VAF) qui nourrit les mêmes objectifs que SOB. Depuis 2015, SOB est enregistrée au PACCOM (organisme qui gère l’ensemble des ONG étrangères).<br>Notre partenariat a commencé en 2012 permettant l’achat de 10kg de riz par mois pour chaque enfant soutenu par SOB.<br>L’accord initial concernait 20 enfants. Depuis novembre 2015, CDPVN finance 3 sacs de riz supplémentaires suite à la scolarisation de 3 nouveaux enfants (2016 29 640 000 VND  de juillet 2015 à juin 2016). Cette aide a été incrémentée jusqu’à juin 2017 pour un montant de 34 320 000 VND pour 26 enfants.<br>",
+    "cout": "- 2012 : Distribution de riz mensuelle aux familles de 16 enfants scolarisés pour 6 mois (11'000'000 VND)<br>- 2013-2014 : Distribution mensuelle de riz aux familles de 15 enfants scolarisés pendant 12 mois (20'000'000 VND) + 1 enfant nouvellement intégré au projet pendant 8 mois (880'000 VND)<br>- 2014-2015 : Distribution mensuelle de riz aux familles de 16 enfants scolarisés pendant 12 mois (24'120'000 VND)<br>- 2015-2016: Distribution mensuelle de riz aux familles de 20 enfants scolarisés pendant 12 mois + 3 enfants intégrés en novembre 2015 (29'640'000 VND)",
     "partenaires": [
         {
             "partenaire": "VAF (Vietnam and Friends)",

@@ -3,7 +3,7 @@
 
 /* Carousel base class */
 #carousel {
-  height: 360px;
+  height: 200px;
   margin-bottom : 10px;
 }
 
@@ -16,7 +16,7 @@
 }
 
 #carousel .item {
-  height: 360px;
+  height: 200px;
   background-color: #ffffff;
   text-align: center;
 }
@@ -51,3 +51,12 @@
   width: 5%;
 }
 
+@media (min-width: 768px) {
+  #carousel {
+    height: 360px;
+  }
+
+  #carousel .item {
+    height: 360px;
+  }
+}

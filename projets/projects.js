@@ -50,16 +50,19 @@ var	display= function(project){
 		$("#projectDesc").append(HTMLprojectDescription.replace("%data%",project.description));
 		$("#projectCout").append(HTMLprojectCout.replace("%data%", project.cout));
 
-		$("#projectPartenaires").append(HTMLprojectPartenairesStart);
-		for (var index in project.partenaires)
+		if (typeof project.partenaires !== 'undefined')
         {
-        	if (typeof project.partenaires[index].url !== 'undefined')
-        	{
-				$("#projectPartenaires").append(HTMLprojectPartenaire.replace("%data%", project.partenaires[index].partenaire).replace("#",project.partenaires[index].url));
-			}
-			else
-			{
-				$("#projectPartenaires").append(HTMLprojectPartenaireNoURL.replace("%data%", project.partenaires[index].partenaire));
+			$("#projectPartenaires").append(HTMLprojectPartenairesStart);
+			for (var index in project.partenaires)
+	        {
+	        	if (typeof project.partenaires[index].url !== 'undefined')
+	        	{
+					$("#projectPartenaires").append(HTMLprojectPartenaire.replace("%data%", project.partenaires[index].partenaire).replace("#",project.partenaires[index].url));
+				}
+				else
+				{
+					$("#projectPartenaires").append(HTMLprojectPartenaireNoURL.replace("%data%", project.partenaires[index].partenaire));
+				}
 			}
 		}
 
@@ -68,15 +71,21 @@ var	display= function(project){
 			$("#projectAnterieur").append(HTMLprojectAnterieur.replace("%data%", project.anterieur));
 		}
 
-		$("#projectDonateur").append(HTMLprojectDonStart);
-		for (var index in project.donateurs)
-        {
-			$("#projectDonateur").append(HTMLprojectDonateur.replace("%data%", project.donateurs[index].name));
+		if (typeof project.donateurs !== 'undefined')
+		{
+			$("#projectDonateur").append(HTMLprojectDonStart);
+			for (var index in project.donateurs)
+	        {
+				$("#projectDonateur").append(HTMLprojectDonateur.replace("%data%", project.donateurs[index].name));
+			}
 		}
 
-		$("#projectInfo").append(HTMLprojectInfoStart);
-		for (var index in project.info)
+		if (typeof project.info !== 'undefined')
 		{
-			$("#projectInfo").append(HTMLprojectInfo.replace("%data%", project.info[index].name).replace("#", project.info[index].url));
+			$("#projectInfo").append(HTMLprojectInfoStart);
+			for (var index in project.info)
+			{
+				$("#projectInfo").append(HTMLprojectInfo.replace("%data%", project.info[index].name).replace("#", project.info[index].url));
+			}
 		}
 	}

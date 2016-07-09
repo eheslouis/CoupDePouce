@@ -31,14 +31,15 @@
                 include "common/navbar.php";
             ?>
             <div class="row">
-                <div class="col-md-9 col-md-push-3">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
                     <h3>
                         Association Loi 1901
                     </h3>
                     <div class="contenu">
                         Enregistrée sous le numéro W691060078 à la préfecture du Rhône et de la Région Rhône-Alpes avec pour dénomination "Coup de Pouce Vietnam".<br> Ces statuts vis à vis d'une juridiction française permettent à l'association d'être reconnue et sont une garantie.<br>En outre, étant une Association Loi 1901, elle permet en France la déduction d'impôts.
 
-                        Vous pouvez consulter les <a href="documents/statuts.pdf" target="blank">status</a> et le <a href="documents/fonctionnementInterieur.pdf" target="blank">fonctionnement intérieur</a> de l'Association.
+                        Vous pouvez consulter les <a href="documents/statuts.pdf" target="blank">statuts</a> et le <a href="documents/fonctionnementInterieur.pdf" target="blank">fonctionnement intérieur</a> de l'Association.
                     </div>
                     <h3>
                         Reconnue par le PACCOM au Vietnam
@@ -52,6 +53,17 @@
                     <div class="row">
                         <div class="col-md-2"></div>
                         <div class="col-md-7">
+                        	<div class="row row-eq-height">
+                                <div class="col-md-4 border_table years">
+                                    2015-2016:
+                                </div>
+                                <div class="col-md-8">
+                                    <a href="documents/PROCES VERBAL AG 2016_VD.pdf" target="blank">Proces Verbal de l'assemblée générale</a><br>
+                                    <a href="documents/RAPPORT D ACTIVITÉS 2015-2016.pdf" target="blank">Rapport d'activités</a><br>
+                                    <a href="documents/Rapport Financier CDPVN 2015-2016.pdf" target="blank">Rapport financier</a><br>
+                                </div>
+                            </div>
+                        <!-- debut des rapports 2014-2015 -->
                             <div class="row row-eq-height">
                                 <div class="col-md-4 border_table years">
                                     2014-2015:
@@ -62,29 +74,27 @@
                                     <a href="documents/Rapport_Financier_CDPVN_2014_15.pdf" target="blank">Rapport financier</a><br>
                                 </div>
                             </div>
+                        	<!-- fin des rapports 2014-2015 -->
                             <div class="row row-eq-height">
                                 <div class="col-md-4 border_table years">
-                                    2014-2015:
+                                    2013-2014:
                                 </div>
                                 <div class="col-md-8">
-                                    <a href="documents/Proces_verbal_AG 2015_final.pdf" target="blank">Proces Verbal de l'assemblée générale</a><br>
-                                    <a href="documents/Rapport_d_activites 2014_2015_final.pdf" target="blank">Rapport d'activités</a><br>
-                                    <a href="documents/Rapport_Financier_CDPVN_2014_15.pdf" target="blank">Rapport financier</a><br>
+                                    <a href="documents/Proces_verbal_AG 2014_final.doc" target="blank">Proces Verbal de l'assemblée générale</a><br>
+                                    <a href="documents/Rapport_d_activites 2013_2014_final.doc" target="blank">Rapport d'activités</a><br>
+                                    <a href="documents/Rapport_Financier_CDPVN_2013_14.doc" target="blank">Rapport financier</a><br>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3"></div>
                     </div>
                 </div>
-                <?php
-                    include "common/leftColumn.php";
-                ?>
             </div>
-            <?php
-                include "common/footer.php";
-            ?>
         </div>
 
+    <script>
+        document.getElementById('nav-assoc').className += ' active';
+    </script>
 <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

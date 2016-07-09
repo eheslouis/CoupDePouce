@@ -16,6 +16,8 @@
         <link href="css/main.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
         <link href="css/leftColumn.css" rel="stylesheet">
+        <link href="css/parrainage.css" rel="stylesheet">
+        <link href="css/assoc.css" rel="stylesheet">
         <link href="css/galerie.css" rel="stylesheet">
         <script src="galerieGeneric.js"></script>
     </head>
@@ -31,23 +33,43 @@
                 include "common/navbar.php";
             ?>
             <div class="row">
-                <?php
-                include "galerieGeneric.php";
-                ?>
-                <?php
-                include "common/leftColumn.php";
-                ?>
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 align="center">La Fête du Têt</h1>
+                            <p>
+                                Le Têt est la fête du Nouvel An vietnamien, littéralement  « fête du premier jour de l'année ».  C'est la fête la plus importante de l’année et  a lieu le jour de la première nouvelle lune, au milieu de la période séparant le solstice d'hiver de l'équinoxe de printemps ; entre le 21 janvier et le 20 février. C'est l'occasion pour les familles d'aller à la pagode ou de visiter leurs parents et amis.
+                            </p>
+                            <h3>Comment ne pas fêter cet événement incontournable au Vietnam ?</h3>
+                            <p>
+                                A cette occasion, Coup de Pouce organise un grand déjeuner, avec un beau spectacle, et offre bien sûr, un panier du Têt, où les familles retrouvent les produits spécifiques de cette fête comme le Banh Chung, le thé, les bambous séchés, les fruits confits, etc…<br>Les enfants ne sont pas oubliés et reçoivent avec fierté leurs étrennes ! <br>Cette fête est entièrement financée par Coup de Pouce, aidée de généreux donateurs privés et d'entreprises.<br>
+                            </p>
+                            <h3>Fête du Tết 2016 des enfants parrainés</h3>
+                            <p>
+                                Dimanche 24 Janvier 2016<br>Chuc Mung Nam Moi ! <br>C'est ainsi que les familles parrainées ont été accueillies au restaurant Sum Villa pour la traditionnelle Fête du Têt organisée par Coup de Pouce. Nouveauté cette année, les enfants du programme de Bourse étaient aussi de la fête. Après les discours officiels, place au spectacle avec des matchs d'improvisation organisés avec les lycéens du lycée Hanoi-Amsterdam et l'Atelier Théâtre de Hanoi. Les enfants ont même pu participer, ce qui a déclenché de nombreux fous-rires dans le public des parents.<br>Après un déjeuner copieux, chaque enfant a reçu des étrennes et le panier du Têt, contenant les spécialités vietnamiennes de cette grande fête.<br>Merci à AMICA Travel, aux donateurs privés et au bénévoles d'avoir largement contribué au succès de cette journée : les sourires des enfants en sont la plus belle illustration !
+                            </p>
+                        </div>
+                        <div class="row">
+                            <?php
+                            include "galerieGeneric.php";
+                            ?>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <?php
-                include "common/footer.php";
-            ?>
-        </div
+        </div>
+
+    <script>
+        document.getElementById('nav-parrainage').className += ' active';
+    </script>
 
 <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="galerieParrainage.js"></script>
+    <script src="js/jQuery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>

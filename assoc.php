@@ -30,21 +30,23 @@
                 include "common/navbar.php";
             ?>
             <div class="row">
-                <div class="col-md-9 col-md-push-3">
-                    <div class="row row-eq-height">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="row">
                         <div class="col-md-9">
                             <h3>
-                                Coup de Pouce, c'est quoi?
+                                L’ histoire de Coup de Pouce
                             </h3>
                             <div class="contenu">
-                                    Coup de Pouce est une association française loi 1901, composée de bénévoles et reconnue au Vietnam auprès du Paccom depuis 2000. Elle aide les familles défavorisées de Hanoï, et plus particulièrement les enfants, via plusieurs projets dont le parrainage.
+                                    Coup de Pouce est une association française loi 1901, composée de bénévoles et reconnue au Vietnam auprès du Paccom (People’s Aid Coordinating Committee) depuis 2000. <br>Elle aide les familles défavorisées de Hanoï, et plus particulièrement les enfants, via plusieurs projets dont le parrainage.
+
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <img src="images/SOB.jpg">
+                        <div class="col-md-3 col-image">
+                            <!-- <img class="assoc-img" src="images/SOB.jpg"> -->
                         </div>
                     </div>
-                    <div class="row row-eq-height">
+                    <div class="row">
                         <div class="col-md-9">
                             <h3>
                                 Coup de Pouce, en bref, c'est aujourd'hui:
@@ -53,18 +55,18 @@
                                 <ul>
                                     <li>10 tonnes de riz distribuées par an</li>
                                     <li>des colis mensuels distribués à 30 familles</li>
-                                    <li>2 écoles construites en 2 ans à Méo Vac (en partenariat avec l’APE du lycée)</li>
+                                    <li>2 écoles construites en 2 ans à Méo Vac (en partenariat avec l’APE- Association des Parents d’élèves du lycée)</li>
                                     <li>des aides régulières à des associations, organismes ou ONG partenaires</li>
-                                    <li>une bourse d’études créée en 2015 (2 enfants en apprentissage et 1 jeune fille en études supérieures)</li>
+                                    <li>une bourse d’études créée en 2015 (une jeune fille en études supérieurs et un premier enfant diplôme en 2016!)</li>
                                     <li>un programme d’amélioration de l’environnement sanitaire des enfants parrainés</li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <img src="images/SOB.jpg">
+                        <div class="col-md-3 col-image">
+                            <!-- <img class="assoc-img" src="images/SOB.jpg"> -->
                         </div>
                     </div>
-                    <div class="row row-eq-height">
+                    <div class="row">
                         <div class="col-md-9">
                             <h3>
                                 Que faisons-nous?
@@ -78,11 +80,11 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <img src="images/SOB.jpg">
+                        <div class="col-md-3 col-image">
+                            <!-- <img class="assoc-img" src="images/SOB.jpg"> -->
                         </div>
                     </div>
-                    <div class="row row-eq-height">
+                    <div class="row">
                         <div class="col-md-9">
                             <h3>
                                 Comment nous aider?
@@ -97,19 +99,45 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <img src="images/SOB.jpg">
+                        <div class="col-md-3 col-image">
+                            <!-- <img class="assoc-img" src="images/SOB.jpg"> -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-9">
+                            <h3>
+                                Comment nous contacter?
+                            </h3>
+                            <div class="contenu">
+                                <p>
+                                    <b>Par email :</b> <a href="mailto:coupdepoucevietnam@gmail.com"> coupdepoucevietnam@gmail.com</a><br>
+                                    <br>
+                                    <b>Adresse en France:</b><br>chez Mme SAUTHIER Marie Thérèse<br>1 cours Aristide Briand<br>69300 Caluire-et-Cuire<br>FRANCE<br>
+                                    <br>
+                                    <b>Adresse au Vietnam:</b><br>
+                                    Coup de Pouce Vietnam<br>
+                                    aux bons soins de l'Ambassade de France<br>
+                                    57, Tran Hung Dao<br>
+                                    HANOI - (Vietnam)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-image">
+                            <!-- <img class="assoc-img" src="images/SOB.jpg"> -->
                         </div>
                     </div>
                 </div>
-                <?php
-                    include "common/leftColumn.php";
-                ?>
             </div>
-            <?php
-                include "common/footer.php";
-            ?>
         </div>
+
+    <script>
+        document.getElementById('nav-assoc').className += ' active';
+        elements = document.getElementsByClassName('col-md-9');
+        for ( var i = 0; i < elements.length; i++)
+        {
+            elements[i].className = 'col-md-12';
+        }
+    </script>
 
 <!-- Bootstrap core JavaScript
     ================================================== -->

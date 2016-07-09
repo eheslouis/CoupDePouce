@@ -13,6 +13,7 @@ h2{
 .project-image{
 	display: block;
 	margin: auto;
+	max-height : 230px;
 }
 
 .project-description, .project-cout{
@@ -32,4 +33,9 @@ table{
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.image-project {
+	padding: 2px;
+	max-height: 200px;
 }

@@ -1,5 +1,6 @@
 <!-- ================ GALLERIE ================ -->
-                <div class="col-md-9 col-md-push-3">
+                <div class="col-md-1"></div>
+                <div class="col-md-10" id="galerie">
                      <div id="carousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner" id="listImages">
                         </div>

@@ -31,78 +31,87 @@
                 include "common/navbar.php";
             ?>
             <div class="row">
-                <div class="col-md-9 col-md-push-3">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
                     <div>
-                        Un nouveau Conseil d'Administration (CA) a été élu pour une durée d'un an le mardi 24 mars 2015 au cours de notre Assemblée Générale.<br><br>En voici sa composition :
+                        Un nouveau Conseil d'Administration (CA) a été élu pour une durée d'un an le 22 mars 2016 au cours de notre Assemblée Générale.<br><br>En voici sa composition :
                     </div>
+                    <!-- Debut ligne de 3 postes -->
                     <div class="row">
+                        <!-- Debut 1er poste -->
                         <div class="col-md-4 tableCA">
                             <div class="nom">
-                                Anne Rozo
+                                Anne ROZO
                             </div>
                             <div class="job">
                                 Présidente
                             </div>
                             <div class="photo">
-                                <img src="images/CA/presidente.jpg">
+                                <img class="image-CA" src="images/CA/presidente.jpg">
                             </div>
                         </div>
+                        <!-- Fin 1er poste  -->
+                        <!-- Debut 2eme poste -->
                         <div class="col-md-4 tableCA">
                             <div class="nom">
-                                Nathalie Populus
+                                Catherine COCHE
                             </div>
                             <div class="job">
-                                Vice Présidente
+                                Vice Présidente et Responsable Bourse d'études et formation
                             </div>
                             <div class="photo">
-                                <img src="images/CA/vicepresidente.jpg">
+                                <img class="image-CA" src="images/CA/vicepresidente.jpg">
                             </div>
                         </div>
+                        <!-- Fin 2eme poste -->
+                        <!-- Debut 3eme poste -->
                         <div class="col-md-4 tableCA">
                             <div class="nom">
-                                Anne-Claire Bremard
+                                Anne-Claire BREMARD
                             </div>
                             <div class="job">
                                 Trésorière
                             </div>
                             <div class="photo">
-                                <img src="images/CA/tresoriere.jpg">
+                                <img class="image-CA" src="images/CA/tresoriere.jpg">
                             </div>
                         </div>
+                        <!-- Fin 3eme poste -->
                     </div>
+                    <!-- Fin ligne de 3 postes -->
                     <br>
                     <div class="row">
                         <div class="col-md-4 tableCA">
                             <div class="nom">
-                                Margot Biaggi
+                                Margot BIAGGI
                             </div>
                             <div class="job">
                                 Secrétaire
                             </div>
                             <div class="photo">
-                                <img src="images/CA/secretaire.jpg">
+                                <img class="image-CA" src="images/CA/secretaire.jpg">
                             </div>
                         </div>
                         <div class="col-md-4 tableCA">
                             <div class="nom">
-                                Annie Bocquet
+                                Sylvana GELINAS
                             </div>
                             <div class="job">
                                 Responsable «Parrainages»
                             </div>
                             <div class="photo">
-                                <img src="images/CA/parrainage1.jpg">
+                                <img class="image-CA" src="images/CA/parrainage1.jpg">
                             </div>
                         </div>
                         <div class="col-md-4 tableCA">
                             <div class="nom">
-                                Laure Berardi
+                                Annegitte JACOBSEN
                             </div>
                             <div class="job">
                                 Responsable «Parrainages»
                             </div>
                             <div class="photo">
-                                <img src="images/CA/parrainage2.jpg">
+                                <img class="image-CA" src="images/CA/parrainage2.jpg">
                             </div>
                         </div>
                     </div>
@@ -110,35 +119,35 @@
                     <div class="row">
                         <div class="col-md-4 tableCA">
                             <div class="nom">
-                                Catherine Rossi
+                                Catherine ROSSI
                             </div>
                             <div class="job">
                                 Relations avec l'Ambassade
                             </div>
                             <div class="photo">
-                                <img src="images/CA/relationAmbassade.jpg">
+                                <img class="image-CA" src="images/CA/relationAmbassade.jpg">
                             </div>
                         </div>
                         <div class="col-md-4 tableCA">
                             <div class="nom">
-                                Elodie Heslouis
+                                Esmeralda GARCIA
                             </div>
                             <div class="job">
                                 Responsable Communication
                             </div>
                             <div class="photo">
-                                <img src="images/CA/communication.jpg">
+                                <img class="image-CA" src="images/CA/communication.jpg">
                             </div>
                         </div>
                         <div class="col-md-4 tableCA">
                             <div class="nom">
-                                Marie Champion
+                                Marie TALON
                             </div>
                             <div class="job">
-                                Responsable Marketing
+                                Responsable projet calendriers
                             </div>
                             <div class="photo">
-                                <img src="images/CA/marketing.jpg">
+                                <img class="image-CA" src="images/CA/responsableprojetcalendriers.jpg">
                             </div>
                         </div>
                     </div>
@@ -146,25 +155,71 @@
                     <div class="row">
                         <div class="col-md-4 tableCA">
                             <div class="nom">
-                                Marité Sauthier
+                                Anaïs VAN DE STEENE
+                            </div>
+                            <div class="job">
+                                Projet amélioration de l'habitat
+                            </div>
+                            <div class="photo">
+                                <img class="image-CA" src="images/CA/responsableameliorationhabitat.jpg">
+                            </div>
+                        </div>
+                        <div class="col-md-4 tableCA">
+                            <div class="nom">
+                                Sylvia MAEGHT
+                            </div>
+                            <div class="job">
+                                Responsable developpement et suivi des projets
+                            </div>
+                            <div class="photo">
+                                <img class="image-CA" src="images/CA/developpementetsuiviprojets1.jpg">
+                            </div>
+                        </div>
+                        <div class="col-md-4 tableCA">
+                            <div class="nom">
+                                Julien GODARD
+                            </div>
+                            <div class="job">
+                                Responsable developpement et suivi des projets
+                            </div>
+                            <div class="photo">
+                                <img class="image-CA" src="images/CA/developpementetsuiviprojets2.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4 tableCA">
+                            <div class="nom">
+                                Marie DUCOURANT
+                            </div>
+                            <div class="job">
+                                Trésorière adjointe
+                            </div>
+                            <div class="photo">
+                                <img class="image-CA" src="images/CA/tresoriereadjointe.jpg">
+                            </div>
+                        </div>
+                        <div class="col-md-4 tableCA">
+                            <div class="nom">
+                                Marité SAUTIER
                             </div>
                             <div class="job">
                                 Représentante «France»
                             </div>
                             <div class="photo">
-                                <img src="images/CA/representanteFrance.jpg">
+                                <img class="image-CA" src="images/CA/representanteFrance.jpg">
                             </div>
                         </div>
                     </div>
+                    <div><br></div>
                 </div>
-                <?php
-                    include "common/leftColumn.php";
-                ?>
             </div>
-            <?php
-                include "common/footer.php";
-            ?>
         </div>
+
+    <script>
+        document.getElementById('nav-assoc').className += ' active';
+    </script>
 
 <!-- Bootstrap core JavaScript
     ================================================== -->

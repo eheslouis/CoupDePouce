@@ -8,9 +8,10 @@
 
 .job{
 	font-size: 13px;
+	color: #ef0000;
 }
 
-img{
+.image-CA{
 	width: 122px;
 	height: 122px;
 }

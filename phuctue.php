@@ -35,10 +35,11 @@
             <?php
                 include "projets/projet.php";
             ?>
-            <?php
-                include "common/footer.php";
-            ?>
         </div>
+
+    <script>
+        document.getElementById('nav-projets').className += ' active';
+    </script>
 
 <!-- Bootstrap core JavaScript
     ================================================== -->

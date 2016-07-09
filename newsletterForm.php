@@ -33,13 +33,14 @@
 <!-- ================ CENTER PART ================ -->
             <div class="row">
 <!-- ================ Form ================ -->
-                <div class="col-md-9 col-md-push-3">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
                     <div class="row">
                         <div class="col-md-2"></div>
                         <div class="col-md-8">
                             <!-- Begin MailChimp Signup Form -->
                             <div id="mc_embed_signup">
-                                <form action="//coupdepoucevn.us11.list-manage.com/subscribe/post?u=79f404bebc60ee16dbe676ab2&amp;id=3f2b68ac82" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <form action="//coupdepoucevn.us11.list-manage.com/subscribe/post?u=79f404bebc60ee16dbe676ab2&amp;id=e06f50f6ba" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                                     <div id="mc_embed_signup_scroll">
                                         <h1 class="text-center">S'incrire à la newsletter</h1>
                                         <div class="indicates-required">
@@ -90,13 +91,7 @@
                         </div>
                     </div>
                 </div>
-                <?php
-                include "common/leftColumn.php";
-                ?>
             </div>
-            <?php
-                include "common/footer.php";
-            ?>
         </div>
 
 

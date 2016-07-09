@@ -29,12 +29,13 @@
             ?>
 
             <div class="row">
-                <div class="col-md-9 col-md-push-3">
+            	<div class="col-md-1"></div>
+                <div class="col-md-10">
 					<?php
 
 					if(isset($_POST["email"]))
 					{
-						$email_to = "eheslouis@gmail.com";
+						$email_to = "coupdepoucevietnam@gmail.com";
 						$email_subject = "Message du site internet";
 
 						function died($error)
@@ -92,14 +93,7 @@
 					}
 					?>
 				</div>
-                <?php
-                    include "common/leftColumn.php";
-                ?>
             </div>
-            <?php
-                include "common/footer.php";
-            ?>
-
         </div>
 <!-- Bootstrap core JavaScript ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
